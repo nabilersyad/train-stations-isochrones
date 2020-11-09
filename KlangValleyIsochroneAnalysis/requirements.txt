@@ -1,0 +1,10 @@
+folium
+pandas
+shapely
+fiona
+requests
+openrouteservice
+ortools
+jupyter
+plotly
+numpy
