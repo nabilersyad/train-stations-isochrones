@@ -42,6 +42,7 @@ def isoGeoJsonRetriever(parameters,stations,client):
 def stationSubset(stations,station_list):
     return { your_key: stations[your_key] for your_key in station_list }
 
+#method that use input dataframe coordinates to make API calls to ORS to retrieve isochrones for train stations in the dataframe. Will return isochrone maps of a line and dictionary of stations
 def toMap(data,line,params_iso,client):
     # Set up folium map
     if not line in data.values:
@@ -61,6 +62,7 @@ def toMap(data,line,params_iso,client):
     isoVisualizer(mapped,stations)
     return mapped,stations
 
+#Will store full isochrone data in a column. a bit messy but i wasn't sure the alternative to do this
 def dictToDataFrame(maps,dataframe):
     iso_df = pd.DataFrame(columns= list(pd.DataFrame.from_dict(maps[0][1]).T)) 
     for i in range(len(maps)):
