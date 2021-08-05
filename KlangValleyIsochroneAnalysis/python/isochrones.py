@@ -8,23 +8,27 @@ def dictSetup(dataframe):
     return station_dict
 
 #input a Folium Map and Stations dictionary containing ISO data. this will draw the ISO lines on the folium map object
-def isoVisualizer(maps,stations):
+def isoVisualizer(maps,stations, map_icon = 'train'):
     style_function = lambda x: {'color': '#4ef500' if x['properties']['value']<400 else ('#2100f5' if x['properties']['value']<700.0 else '#f50000'),
-                                'fillOpacity' :0.25,
+                                'fillOpacity' : 0.35 if x['properties']['value']<400 else (0.25 if 400.0<x['properties']['value']<700.0 else 0.05),
                                 'weight':2,
-                                'fillColor' :'#92daf0'}
+                                'fillColor' :'#4ef500' if x['properties']['value']<400 else ('#2100f5' if 400.0<x['properties']['value']<700.0 else '#f50000')}
                                                     #('#6234eb' if x['properties']['value']==600.0 else '#6234eb')
     
     for name, station in stations.items():
-        folium.features.GeoJson(station['iso'],style_function = style_function).add_to(maps) # Add GeoJson to map
-        folium.map.Marker(list(reversed(station['locations'])), # reverse coords due to weird folium lat/lon syntax
-                            icon=folium.Icon(color='lightgray',
-                                        icon_color='#cc0000',
-                                        icon='train',
-                                        prefix='fa',
-                                            ),
+        station_iso_temp = station['iso']
+        station_iso_temp = station_iso_temp.replace("'", '"')
+        folium.features.GeoJson(station_iso_temp,style_function = style_function).add_to(maps) # Add GeoJson to map
+        if map_icon!="":
+            folium.map.Marker(list(reversed(station['locations'])), # reverse coords due to weird folium lat/lon syntax
+                                icon=folium.Icon(color='lightgray',
+                                            icon_color='#cc0000',
+                                            icon=map_icon,
+                                            prefix='fa',
+                                                ),
                             popup=station['Name'],
                             ).add_to(maps) # Add apartment locations to map
+            
     print("Done!")
 
 #Perform isochrone request and generates a new item in the stations dictionary containing isochrone data for that station.
