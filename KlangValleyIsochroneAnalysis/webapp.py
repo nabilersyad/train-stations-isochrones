@@ -15,7 +15,7 @@ from streamlit_folium import folium_static
 #image = Image.open('../resources/img/DSC09499.JPG')
 
 # Calling csv files containing isochrones data from all metros of KL, Singapore and Montreal into dataframes
-file_all_cities = '../resources/data/all_cities_iso.csv'
+file_all_cities = 'resources/data/all_cities_iso.csv'
 
 #kl, singapore and montreal dataframe
 data_all = pd.read_csv(file_all_cities)
