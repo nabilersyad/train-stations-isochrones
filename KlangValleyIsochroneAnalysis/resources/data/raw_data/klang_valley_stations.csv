@@ -1,4 +1,4 @@
- Stop Name, Stop ID,Service Provider Name,Latitud,Longitud,ROUTE ID,Route Name,Line Number,Line Colour,Colour Hex Code,City
+Name,Stop ID,Service Provider Name,Latitude,Longitude,ROUTE ID,Route Name,Line Number,Line Colour,Colour Hex Code,City
 TAMAN WAHYU,KC04,Keretapi Tanah Melayu,3.2145439,101.6721822,KC,Seremban Line,1,Blue,#0000FF,Kuala Lumpur
 KAMPUNG BATU,KC03,Keretapi Tanah Melayu,3.2047963,101.675646,KC,Seremban Line,1,Blue,#0000FF,Kuala Lumpur
 MID VALLEY,KB01,Keretapi Tanah Melayu,3.1185282,101.6789854,KB,Seremban Line,1,Blue,#0000FF,Kuala Lumpur
