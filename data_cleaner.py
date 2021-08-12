@@ -3,9 +3,9 @@ import pandas as pd
 
 # Calling csv files containing isochrones data from all metros of KL, Singapore and Montreal into dataframes
 
-file_kl = '../resources/data/klang_valley_stations_isochrones_2021-07-29.csv'
-file_sg = '../resources/data/mrtsg_iso.csv'
-file_mtl = '../resources/data/montreal_metro_iso.csv'
+file_kl = 'resources/data/klang_valley_stations_isochrones.csv'
+file_sg = 'resources/data/mrtsg_iso.csv'
+file_mtl = 'resources/data/montreal_metro_iso.csv'
 
 #each city are assigned a separate unique dataframe
 data_kl = pd.read_csv(file_kl)
@@ -23,5 +23,5 @@ columns = ['Name','Route Name','Latitude','Longitude','Line Colour',
 #combining the kl, singapore and montreal dataframes
 data_all = pd.concat([data_kl[columns],data_sg[columns],data_mtl[columns]])
 
-file_url ='../resources/data/all_cities_iso.csv'
-data_all.to_csv(file_url,index_label=False)
+file_url ='resources/data/all_cities_iso.csv'
+data_all.to_csv(file_url,index=False)
