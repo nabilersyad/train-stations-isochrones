@@ -8,6 +8,19 @@ import numpy as np
 import isochrones
 from streamlit_folium import folium_static 
 
+def filedownload(df):
+    csv = df.to_csv(index=False)
+    b64 = base64.b64encode(csv.encode()).decode()  # strings <-> bytes conversions
+    href = f'<a href="data:resources/data;base64,{b64}" download="cities_isochrones.csv">Download CSV File</a>'
+    return href
+
+
+# Set page title and favicon.
+TRAIN__ICON_URl= 'resources/img/train_icon.png'
+
+st.set_page_config(
+    page_title="Train Station Isochrones", page_icon=TRAIN__ICON_URl,
+)
 
 ###Load Relevant Data###
 
@@ -22,9 +35,17 @@ data_all = pd.read_csv(file_all_cities)
 
 
 st.markdown("""
-# Klang Valley Isochrone Analysis
+# Transit Station Pedestrian Accessibility Visualizer
 * **Python libraries:** base64, pandas, streamlit \n
-Charts on isochrone analysis of train stations in KL
+This web application will attempt to visualize the pedestrian accessibility of public transit stations across different cities using isochrone maps \n
+Isochrone maps depict the accessible area from a point within a certain time threshold. \n
+This application will visualize the isochrone maps according to the following parameters:
+
+1. Walking access within a 5 minute timeframe
+2. Walking access within a 10 minute timeframe
+3. Walking access within a 15 minute timeframe
+
+Choose your city and stations to be analyzed using the sidebar on the left
 """)
 
 #st.image(image, use_column_width=True)
@@ -74,16 +95,16 @@ st.write("""
 
 st.header(selected_city + ' Train Stations Isochrone Data')
 
-if st.button('Confirm Selection'):
+if st.sidebar.button('Confirm Selection'):
     selected_map = isochrones.isoMapper(selected_data)
     folium_static(selected_map)
 
 
-    st.header('Mean Values of Selected Columns from the ' +selected_city + ' Dataframe')
+    st.header('Statistical Average Values ')
 
 
     ### Print sample mean values
-    st.subheader('Print values')
+    st.subheader('Area')
     st.write('5 Minute Range Area Average:  ' + str(round(selected_data['5 Minute Range Area'].mean(),3)) + ' km^2')
     st.write('10 Minute Range Area Average:  ' + str(round(selected_data['10 Minute Range Area'].mean(),3)) + ' km^2')
     st.write('15 Minute Range Area Average:  ' + str(round(selected_data['15 Minute Range Area'].mean(),3)) + ' km^2')
@@ -103,3 +124,6 @@ if st.button('Confirm Selection'):
     st.write(fig)
 
     st.dataframe(selected_data)
+
+    st.markdown(filedownload(selected_data), unsafe_allow_html=True)
+

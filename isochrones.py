@@ -28,8 +28,7 @@ def isoVisualizer(maps,stations, map_icon = ""):
                                             prefix='fa',
                                                 ),
                             popup=station['Name'],
-                            ).add_to(maps) # Add apartment locations to map
-            
+                            ).add_to(maps) # Add apartment locations to map      
     print("Done!")
 
 #Perform isochrone request and generates a new item in the stations dictionary containing isochrone data for that station.
