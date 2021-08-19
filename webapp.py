@@ -1,4 +1,5 @@
 ## Testing out building a basic webapp for isochrone data
+from numpy.lib.arraysetops import _union1d_dispatcher
 import pandas as pd
 import streamlit as st
 from PIL import Image
@@ -14,14 +15,15 @@ def filedownload(df):
     href = f'<a href="data:resources/data;base64,{b64}" download="cities_isochrones.csv">Download CSV File</a>'
     return href
 
-
 # Set page title and favicon.
 TRAIN__ICON_URl= 'resources/img/train_icon.png'
 
+# Page layout
+## adds page icon and Page expands to full width
 st.set_page_config(
     page_title="Train Station Isochrones", page_icon=TRAIN__ICON_URl,
+    layout="wide",
 )
-
 ###Load Relevant Data###
 
 ##Loads image for 
@@ -97,7 +99,7 @@ st.header(selected_city + ' Train Stations Isochrone Data')
 
 if st.sidebar.button('Confirm Selection'):
     selected_map = isochrones.isoMapper(selected_data)
-    folium_static(selected_map)
+    folium_static(selected_map, width=960, height=600)
 
 
     st.header('Statistical Average Values ')
@@ -121,7 +123,7 @@ if st.sidebar.button('Confirm Selection'):
                 ,labels={'Route Name': "Lines",'value' : "Walk Area Coverage(km^2)"}
                 ).update_xaxes(categoryorder='total ascending')
 
-    st.write(fig)
+    st.plotly_chart(fig)
 
     st.dataframe(selected_data)
 
