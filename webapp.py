@@ -26,6 +26,7 @@ st.set_page_config(
 )
 ###Load Relevant Data###
 
+
 ##Loads image for 
 #image = Image.open('../resources/img/DSC09499.JPG')
 
@@ -37,7 +38,11 @@ data_all = pd.read_csv(file_all_cities)
 
 
 st.markdown("""
-# Transit Station Pedestrian Accessibility Visualizer
+# Transit Station Pedestrian Accessibility Visualizer \n
+[![Star](https://img.shields.io/github/stars/nabilersyad/train-stations-isochrones?style=social)](https://github.com/nabilersyad/train-stations-isochrones)
+&nbsp[![Follow](https://img.shields.io/twitter/follow/NabilErsyad?style=social)](https://twitter.com/NabilErsyad)
+&nbsp[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee--yellow.svg?logo=buy-me-a-coffee&logoColor=orange&style=social)](https://www.buymeacoffee.com/nabilersyad)
+
 * **Python libraries:** base64, pandas, streamlit \n
 This web application will attempt to visualize the pedestrian accessibility of public transit stations across different cities using isochrone maps \n
 Isochrone maps depict the accessible area from a point within a certain time threshold. \n

@@ -68,10 +68,14 @@ def toMapORS(data,line,params_iso,client):
 
 #method that uses input dataframe with iso. Returns Map of isochrones.
 def isoMapper(data,icon = 'train'):
-    # Set up folium map
+    ## Set up folium map
     starting_location = (data['Latitude'].iloc[0],data['Longitude'].iloc[0])
     mapped = folium.Map(tiles='OpenStreetMap', location=starting_location, zoom_start=13)
-    
+
+    ##Add legend to Map
+    #colormap = linear.RdYlBu_08.scale(station_stats[field_to_color_by].quantile(0.05),
+                                     # station_stats[field_to_color_by].quantile(0.95))
+
     #converts Dataframe to Dictionary, necessary for the subsequent functions
     stations = dictSetup(data)
     isoVisualizer(mapped,stations,icon)
