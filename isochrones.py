@@ -1,5 +1,6 @@
 import folium
 import pandas as pd
+import json
 #helper method to setup any input dataframe into dictionaries that can be input into OSR isochrone methods and folium maps
 def dictSetup(dataframe):
     station_dict = dataframe.to_dict(orient='index')
@@ -7,38 +8,81 @@ def dictSetup(dataframe):
         station['locations'] = [station['Longitude'],station['Latitude']]
     return station_dict
 
-#input a Folium Map and Stations dictionary containing ISO data. this will draw the ISO lines on the folium map object
+# #input a Folium Map and Stations dictionary containing ISO data. this will draw the ISO lines on the folium map object
+# def isoVisualizer(maps,stations, map_icon = ""):
+#     style_function = lambda x: {'color': '#4ef500' if x['properties']['value']<400 else ('#2100f5' if x['properties']['value']<700.0 else '#f50000'),
+#                                 'fillOpacity' : 0.35 if x['properties']['value']<400 else (0.25 if 400.0<x['properties']['value']<700.0 else 0.05),
+#                                 'weight':2,
+#                                 'fillColor' :'#4ef500' if x['properties']['value']<400 else ('#2100f5' if 400.0<x['properties']['value']<700.0 else '#f50000')}
+#                                                     #('#6234eb' if x['properties']['value']==600.0 else '#6234eb')
+    
+#     for name, station in stations.items():
+#         station_iso_temp = station['iso']
+#         if type(station_iso_temp) == str:
+#             station_iso_temp = station_iso_temp.replace("'", '"')
+#         folium.features.GeoJson(station_iso_temp,style_function = style_function).add_to(maps) # Add GeoJson to map
+#         if map_icon!="":
+#             folium.map.Marker(list(reversed(station['locations'])), # reverse coords due to weird folium lat/lon syntax
+#                                 icon=folium.Icon(color='lightgray',
+#                                             icon_color='#cc0000',
+#                                             icon=map_icon,
+#                                             prefix='fa',
+#                                                 ),
+#                             popup=station['Name'],
+#                             ).add_to(maps) # Add apartment locations to map      
+#     print("Done!")
+
 def isoVisualizer(maps,stations, map_icon = ""):
     style_function = lambda x: {'color': '#4ef500' if x['properties']['value']<400 else ('#2100f5' if x['properties']['value']<700.0 else '#f50000'),
                                 'fillOpacity' : 0.35 if x['properties']['value']<400 else (0.25 if 400.0<x['properties']['value']<700.0 else 0.05),
                                 'weight':2,
                                 'fillColor' :'#4ef500' if x['properties']['value']<400 else ('#2100f5' if 400.0<x['properties']['value']<700.0 else '#f50000')}
                                                     #('#6234eb' if x['properties']['value']==600.0 else '#6234eb')
-    
-    for name, station in stations.items():
-        station_iso_temp = station['iso']
-        if type(station_iso_temp) == str:
-            station_iso_temp = station_iso_temp.replace("'", '"')
-        folium.features.GeoJson(station_iso_temp,style_function = style_function).add_to(maps) # Add GeoJson to map
+    stations['locations']  = stations.apply(lambda row: list([row.loc["Longitude"],row.loc["Latitude"]]) , axis = 1)
+
+    for index, row in stations.iterrows():
+        folium.features.GeoJson(row['iso'],style_function = style_function).add_to(maps) # Add GeoJson to map
         if map_icon!="":
-            folium.map.Marker(list(reversed(station['locations'])), # reverse coords due to weird folium lat/lon syntax
+            folium.map.Marker(list(reversed(row['locations'])), # reverse coords due to weird folium lat/lon syntax
                                 icon=folium.Icon(color='lightgray',
                                             icon_color='#cc0000',
                                             icon=map_icon,
                                             prefix='fa',
                                                 ),
-                            popup=station['Name'],
+                            popup=row['Name'],
                             ).add_to(maps) # Add apartment locations to map      
     print("Done!")
 
 #Perform isochrone request and generates a new item in the stations dictionary containing isochrone data for that station.
 #this will save the isochrones requested from Open Route Service in dictionaries that we created from dictSetup()
+# def isoGeoJsonRetriever(parameters,stations,client):
+#     for name, station in stations.items():
+#         print("Retrieving Isochrone of {} station".format(station['Name']))
+#         parameters['locations'] = [station['locations']]
+#         temp_iso = client.isochrones(**parameters)
+#         station['iso'] = json.dumps(temp_iso)
+#         print("Success")
+#     return
+
+#Perform isochrone request and generates a new column in the stations dataframe containing isochrone data for that station.
+#this will save the isochrones requested from Open Route Service(ORS)
+#ORS will return the isochrones in geoJSON format
 def isoGeoJsonRetriever(parameters,stations,client):
-    for name, station in stations.items():
-        print("Retrieving Isochrone of {} station".format(station['Name']))
-        parameters['locations'] = [station['locations']]
-        station['iso'] = client.isochrones(**parameters)
+
+    #ORS isochrones API takes input list of coordinates in field called location. This line creates that column
+    stations['locations']  = stations.apply(lambda row: list([row.loc["Longitude"],row.loc["Latitude"]]) , axis = 1)
+    iso_list = []
+
+    for index, row in stations.iterrows():
+        print("Retrieving Isochrone of {} station".format(stations.loc[index,'Name']))
+        parameters['locations'] = [row.loc['locations']]
+        temp_iso = client.isochrones(**parameters)
+        temp_iso = json.dumps(temp_iso)
+        iso_list.append(temp_iso)
         print("Success")
+    
+    stations['iso'] = iso_list
+
     return
 
 #helper method to create new dictionary that is a subset of the larger list of dictionaries
@@ -46,7 +90,26 @@ def isoGeoJsonRetriever(parameters,stations,client):
 def stationSubset(stations,station_list):
     return { your_key: stations[your_key] for your_key in station_list }
 
-#method that uses input dataframe coordinates to make API calls to ORS to retrieve isochrones for train stations in the dataframe. Will return isochrone maps of a line and dictionary of stations
+# #method that uses input dataframe coordinates to make API calls to ORS to retrieve isochrones for train stations in the dataframe. Will return isochrone maps of a line and dictionary of stations
+# def toMapORS(data,line,params_iso,client):
+#     # Set up folium map
+#     if not line in data.values:
+#         print('{} is not in data frame'.format(line))
+#         temp = data['Route Name'].unique()
+#         print('Choose from the following: ')
+#         print(temp)
+#         return
+#     if line != None:
+#         data = data[data['Route Name']==line]
+#     starting_location = (data['Latitude'].iloc[0],data['Longitude'].iloc[0])
+#     mapped = folium.Map(tiles='OpenStreetMap', location=starting_location, zoom_start=11)
+
+#     stations = dictSetup(data[data['Route Name']==line])
+
+#     isoGeoJsonRetriever(params_iso,stations,client)
+#     isoVisualizer(mapped,stations)
+#     return mapped,stations
+
 def toMapORS(data,line,params_iso,client):
     # Set up folium map
     if not line in data.values:
@@ -60,11 +123,25 @@ def toMapORS(data,line,params_iso,client):
     starting_location = (data['Latitude'].iloc[0],data['Longitude'].iloc[0])
     mapped = folium.Map(tiles='OpenStreetMap', location=starting_location, zoom_start=11)
 
-    stations = dictSetup(data[data['Route Name']==line])
+    isoGeoJsonRetriever(params_iso,data,client)
+    isoVisualizer(mapped,data)
+    return mapped,data
 
-    isoGeoJsonRetriever(params_iso,stations,client)
-    isoVisualizer(mapped,stations)
-    return mapped,stations
+# #method that uses input dataframe with iso. Returns Map of isochrones.
+# def isoMapper(data,icon = 'train'):
+#     ## Set up folium map
+#     starting_location = (data['Latitude'].iloc[0],data['Longitude'].iloc[0])
+#     mapped = folium.Map(tiles='OpenStreetMap', location=starting_location, zoom_start=13)
+
+#     ##Add legend to Map
+#     #colormap = linear.RdYlBu_08.scale(station_stats[field_to_color_by].quantile(0.05),
+#                                      # station_stats[field_to_color_by].quantile(0.95))
+
+#     #converts Dataframe to Dictionary, necessary for the subsequent functions
+#     stations = dictSetup(data)
+#     isoVisualizer(mapped,stations,icon)
+
+#     return mapped
 
 #method that uses input dataframe with iso. Returns Map of isochrones.
 def isoMapper(data,icon = 'train'):
@@ -77,8 +154,7 @@ def isoMapper(data,icon = 'train'):
                                      # station_stats[field_to_color_by].quantile(0.95))
 
     #converts Dataframe to Dictionary, necessary for the subsequent functions
-    stations = dictSetup(data)
-    isoVisualizer(mapped,stations,icon)
+    isoVisualizer(mapped,data,icon)
 
     return mapped
 
