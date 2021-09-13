@@ -5,7 +5,7 @@ import pandas as pd
 
 file_kl = 'resources/data/klang_valley_stations_isochrones.csv'
 file_sg = 'resources/data/mrtsg_isochrones.csv'
-file_mtl = 'resources/data/montreal_metro_iso.csv'
+file_mtl = 'resources/data/montreal_metro_isochrones.csv'
 file_kuching = 'resources/data/kuching_provisional_stations_isochrones.csv'
 
 #each city are assigned a separate unique dataframe
