@@ -1,9 +1,37 @@
+""" Isochrone Analysis Module 
+
+This module contains functions that will help generate isochrone maps 
+by making API calls to openrouteservice.org (ORS)
+
+"""
+
 import folium
 import pandas as pd
 import json
-#helper method to setup any input dataframe into dictionaries that can be input into OSR isochrone methods and folium maps
+
+#helper method to setup any input dataframe into dictionaries that can be input into ORS isochrone methods and folium maps
 def dictSetup(dataframe):
+    """ A function that converts dataframe into dictionaries inputs acceptable to ORS
+    Note this function is no longer necessary in latest isochrones.py update
+    
+    Parameters
+    ----------
+    dataframe : DataFrame
+        A pandas DataFrame object containing Longitude and Latitude columns
+
+    Returns
+    -------
+    dict 
+        A dict object containing key value 'locations'
+
+    Example
+    -------
+    Will be added later lolz
+
+    """
+
     station_dict = dataframe.to_dict(orient='index')
+    #TODO: try and catch error if input dataframe does not have Longitude and Latitude Columns
     for name, station in station_dict.items():
         station['locations'] = [station['Longitude'],station['Latitude']]
     return station_dict
@@ -33,11 +61,32 @@ def dictSetup(dataframe):
 #     print("Done!")
 
 def isoVisualizer(maps,stations, map_icon = ""):
+    """ Draws isochrones on folium map
+
+        Parameters
+        ----------
+        maps: Map
+            A Folium Map object 
+        stations: DataFrame
+            A Pandas DataFrame containing 'iso' column that contains isochrone data in JSON format acquired from ORS
+        map_icon: str
+            Icon to mark centre of isochrone maps. Refer to https://fontawesome.com/v4.7/icons/ for list of possible icons
+
+
+        Example
+        -------
+        Will be added later lolz
+
+    """
+    #TODO allow more custom style functions
+    #TODO check for input errors
     style_function = lambda x: {'color': '#4ef500' if x['properties']['value']<400 else ('#2100f5' if x['properties']['value']<700.0 else '#f50000'),
                                 'fillOpacity' : 0.35 if x['properties']['value']<400 else (0.25 if 400.0<x['properties']['value']<700.0 else 0.05),
                                 'weight':2,
                                 'fillColor' :'#4ef500' if x['properties']['value']<400 else ('#2100f5' if 400.0<x['properties']['value']<700.0 else '#f50000')}
                                                     #('#6234eb' if x['properties']['value']==600.0 else '#6234eb')
+
+    #necessary to create 'locations' column to know specific coordinates for marking
     stations['locations']  = stations.apply(lambda row: list([row.loc["Longitude"],row.loc["Latitude"]]) , axis = 1)
 
     for index, row in stations.iterrows():
@@ -153,7 +202,6 @@ def isoMapper(data,icon = 'train'):
     #colormap = linear.RdYlBu_08.scale(station_stats[field_to_color_by].quantile(0.05),
                                      # station_stats[field_to_color_by].quantile(0.95))
 
-    #converts Dataframe to Dictionary, necessary for the subsequent functions
     isoVisualizer(mapped,data,icon)
 
     return mapped
