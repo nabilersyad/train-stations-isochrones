@@ -10,17 +10,6 @@ import isochrones
 from streamlit_folium import folium_static
 from branca.element import Template, MacroElement
 
-
-def filedownload(df):
-    csv = df.to_csv(index=False)
-    b64 = base64.b64encode(csv.encode()).decode()  # strings <-> bytes conversions
-    href = f'<a href="data:resources/data;base64,{b64}" download="cities_isochrones.csv">Download CSV File</a>'
-    return href
-
-
-# We import the required library:
-from branca.element import Template, MacroElement
-
 template = """
 {% macro html(this, kwargs) %}
 
@@ -209,16 +198,25 @@ if st.sidebar.button('Confirm Selection'):
     macro.add_to(selected_map)
     folium_static(selected_map, width=960, height=600)
 
+    #st.map()
 
     st.header('Statistical Average Values ')
 
 
     ### Print sample mean values
     st.subheader('Area')
-    st.write('5 Minute Range Area Average:  ' + str(round(selected_data['5 Minute Range Area'].mean(),3)) + ' km^2')
-    st.write('10 Minute Range Area Average:  ' + str(round(selected_data['10 Minute Range Area'].mean(),3)) + ' km^2')
-    st.write('15 Minute Range Area Average:  ' + str(round(selected_data['15 Minute Range Area'].mean(),3)) + ' km^2')
 
+    m1, m2, m3, m4, m5= st.columns((1,1,1,1,1))
+    
+    area_5_minutes_mean =  round(selected_data['5 Minute Range Area'].mean(),3)
+    area_10_minutes_mean = round(selected_data['10 Minute Range Area'].mean(),3) 
+    area_15_minutes_mean =round(selected_data['15 Minute Range Area'].mean(),3)
+    
+    m1.write('')
+    m2.metric(label ='5 Minute Range Area Average (km^2)',value = area_5_minutes_mean)
+    m3.metric(label ='10 Minute Range Area Average (km^2)',value = area_10_minutes_mean)
+    m4.metric(label ='10 Minute Range Area Average (km^2)',value = area_15_minutes_mean)
+    m5.write('')
 
     # draws all coverage in one chart along with all train lines
     fig = px.histogram(selected_data
@@ -235,5 +233,19 @@ if st.sidebar.button('Confirm Selection'):
 
     st.dataframe(selected_data)
 
-    st.markdown(filedownload(selected_data), unsafe_allow_html=True)
+    #outdated way of implemented download button. Can delete whenever
+    #def filedownload(df):
+     # csv = df.to_csv(index=False)
+      #b64 = base64.b64encode(csv.encode()).decode()  # strings <-> bytes conversions
+      #href = f'<a href="data:resources/data;base64,{b64}" download="cities_isochrones.csv">Download CSV File</a>'
+      #return href
+    #st.markdown(filedownload(selected_data), unsafe_allow_html=True)
+
+    csv = selected_data.to_csv().encode('utf-8')
+    st.download_button(
+      label="Download data as CSV",
+      data=csv,
+      file_name=f'{selected_city}_data.csv',
+      mime='text/csv',
+      )
 

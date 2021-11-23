@@ -1,5 +1,6 @@
 #Run this whenever i need to compile all the city files
 import pandas as pd
+from datetime import date
 
 # Calling csv files containing isochrones data from all metros of KL, Singapore and Montreal into dataframes
 
@@ -26,5 +27,5 @@ columns = ['Name','Route Name','Latitude','Longitude','Line Colour',
 #combining the kl, singapore and montreal dataframes
 data_all = pd.concat([data_kl[columns],data_sg[columns],data_mtl[columns],data_kuching[columns]])
 
-file_url ='resources/data/all_cities_iso.csv'
+file_url ='resources/data/all_cities_iso_' + str(date.today())+ '.csv'
 data_all.to_csv(file_url,index=False)
