@@ -1,10 +1,10 @@
 ## Testing out building a basic webapp for isochrone data
-from numpy.lib.arraysetops import _union1d_dispatcher
+from numpy.lib.arraysetops import union1d_dispatcher
 import pandas as pd
 import streamlit as st
 from PIL import Image
 import plotly.express as px
-import base64
+#import base64
 import numpy as np
 import isochrones
 from streamlit_folium import folium_static
@@ -116,7 +116,7 @@ st.set_page_config(
 ##Loads image for 
 #image = Image.open('../resources/img/DSC09499.JPG')
 
-# Calling csv files containing isochrones data from all metros of KL, Singapore and Montreal into dataframes
+# Calling csv files containing isochrones data from all metros of KL, Kuching (provisional), Singapore and Montreal into dataframes
 file_all_cities = 'resources/data/all_cities_iso.csv'
 
 #kl, singapore and montreal dataframe
@@ -129,7 +129,7 @@ st.markdown("""
 &nbsp[![Follow](https://img.shields.io/twitter/follow/NabilErsyad?style=social)](https://twitter.com/NabilErsyad)
 &nbsp[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee--yellow.svg?logo=buy-me-a-coffee&logoColor=orange&style=social)](https://www.buymeacoffee.com/nabilersyad)
 
-* **Python libraries:** base64, pandas, streamlit \n
+* **Python libraries:** pandas, streamlit \n
 This web application will attempt to visualize the pedestrian accessibility of public transit stations across different cities using isochrone maps \n
 Isochrone maps depict the accessible area from a point within a certain time threshold. \n
 This application will visualize the isochrone maps according to the following parameters:
@@ -186,7 +186,7 @@ st.write("""
 ## Displays Dataframe of Kuala Lumpur's Train Stations
 
 
-st.header(selected_city + ' Train Stations Isochrone Data')
+st.header(f'{selected_city} Train Stations Isochrone Data')
 
 if st.sidebar.button('Confirm Selection'):
 
@@ -246,6 +246,6 @@ if st.sidebar.button('Confirm Selection'):
       label="Download data as CSV",
       data=csv,
       file_name=f'{selected_city}_data.csv',
-      mime='text/csv',
+      mime='text/csv'
       )
 
