@@ -1,5 +1,5 @@
 ## Testing out building a basic webapp for isochrone data
-from numpy.lib.arraysetops import union1d_dispatcher
+#from numpy.lib.arraysetops import union1d_dispatcher
 import pandas as pd
 import streamlit as st
 from PIL import Image
