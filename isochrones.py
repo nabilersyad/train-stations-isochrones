@@ -223,7 +223,7 @@ def areaToDataframe(data):
     for station in data.index:
         iso = data.loc[station]['iso']
         if isinstance(iso, str):
-            iso = eval(iso)
+            iso = json.loads(iso)
             area1 =  iso['features'][0]['properties']['area']/m2_to_km2 #area in iso is in m^2 Divide by 1000000 to get km^2
             area2 = (iso['features'][1]['properties']['area'])/m2_to_km2  #area in iso is in m^2 Divide by 1000000 to get km^2
             area3 = (iso['features'][2]['properties']['area'])/m2_to_km2 
