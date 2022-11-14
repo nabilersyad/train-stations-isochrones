@@ -20,7 +20,7 @@ data_mtl = pd.read_csv(file_mtl)
 columns = ['Name','Route Name','Latitude','Longitude','Line Colour',
             '5 Minute Range Area', '10 Minute Range Area','15 Minute Range Area', 
             '5 Minute Reach Factor','10 Minute Reach Factor', '15 Minute Reach Factor',
-            '5 Minute Population', '10 Minute Population', '15 Minute Population','City','iso']
+            '5 Minute Population', '10 Minute Population', '15 Minute Population','City','Colour Hex Code','iso']
 
 
 

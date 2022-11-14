@@ -60,7 +60,7 @@ def dictSetup(dataframe):
 #                             ).add_to(maps) # Add apartment locations to map      
 #     print("Done!")
 
-def isoVisualizer(maps,stations, map_icon = ""):
+def isoVisualizer(maps,stations, map_icon = "", icon_color= '#cc0000'):
     """ Draws isochrones on folium map
 
         Parameters
@@ -88,13 +88,17 @@ def isoVisualizer(maps,stations, map_icon = ""):
 
     #necessary to create 'locations' column to know specific coordinates for marking
     stations['locations']  = stations.apply(lambda row: list([row.loc["Longitude"],row.loc["Latitude"]]) , axis = 1)
-
+    
     for index, row in stations.iterrows():
         folium.features.GeoJson(row['iso'],style_function = style_function).add_to(maps) # Add GeoJson to map
         if map_icon!="":
+            if row['Colour Hex Code']!='':
+                station_color = row['Colour Hex Code']
+            else:
+                station_color =icon_color
             folium.map.Marker(list(reversed(row['locations'])), # reverse coords due to weird folium lat/lon syntax
                                 icon=folium.Icon(color='lightgray',
-                                            icon_color='#cc0000',
+                                            icon_color=station_color,
                                             icon=map_icon,
                                             prefix='fa',
                                                 ),
