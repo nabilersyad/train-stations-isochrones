@@ -1,0 +1,74 @@
+Index,Name,Odonym,Namesake,Opened, Stop ID,Latitude,Longitude,Route Name,Line Colour,Colour Hex Code,City
+1,Angrignon,Boulevard Angrignon; Parc Angrignon,"Jean-Baptiste Angrignon, city councillor",03-09-1978,G1,45.446238,-73.60362,Green Line,Green,#5F8C55,Montreal
+2,Monk,Boulevard Monk,"James Monk, Quebec Attorney-General",03-09-1978,G2,45.451051,-73.59320,Green Line,Green,#5F8C55,Montreal
+3,Jolicoeur,Rue Jolicoeur,"Jean-Moïse Jolicoeur, parish priest",03-09-1978,G3,45.456914,-73.58206,Green Line,Green,#5F8C55,Montreal
+4,Verdun,Rue de Verdun; borough of Verdun,"Notre-Dame-de-Saverdun, France, hometown of Seigneur Zacharie Dupuis",03-09-1978,G4,45.459359,-73.57183,Green Line,Green,#5F8C55,Montreal
+5,De L'Église,Avenue de l'Église,Église Saint-Paul,03-09-1978,G5,45.462874,-73.56696,Green Line,Green,#5F8C55,Montreal
+6,LaSalle,Boulevard LaSalle,"Robert Cavelier de La Salle, French explorer, founder of Lachine",03-09-1978,G6,45.470906,-73.56614,Green Line,Green,#5F8C55,Montreal
+7,Charlevoix,Rue Charlevoix,"Pierre François Xavier de Charlevoix, French historian and explorer",03-09-1978,G7,45.478395,-73.56937,Green Line,Green,#5F8C55,Montreal
+8,Lionel-Groulx,Avenue Lionel-Groulx,"Fr. Lionel Groulx, Quebec historian",03-09-1978,G8,45.482757,-73.57993,Green Line,Green,#5F8C55,Montreal
+9,Atwater,Avenue Atwater,"Edwin Atwater, city councillor",14-10-1966,G9,45.489679,-73.58631,Green Line,Green,#5F8C55,Montreal
+10,Guy–Concordia,Rue Guy |Concordia University,"Étienne Guy, landowner |Concordia salus (Prosperity Through Concord), motto of Montreal",14-10-1966,G10,45.495351,-73.57981,Green Line,Green,#5F8C55,Montreal
+11,Peel,Rue Peel,"Robert Peel, British Prime Minister",14-10-1966,G11,45.500564,-73.57502,Green Line,Green,#5F8C55,Montreal
+12,McGill,McGill College Avenue; McGill University,"James McGill, Businessman",14-10-1966,G12,45.504069,-73.57153,Green Line,Green,#5F8C55,Montreal
+13,Place-des-Arts,Place des Arts cultural complex,Place des Arts cultural complex,14-10-1966,G13,45.508037,-73.56834,Green Line,Green,#5F8C55,Montreal
+14,Saint-Laurent,Boulevard Saint-Laurent,So-called as the old road to Saint-Laurent,14-10-1966,G14,45.510924,-73.56482,Green Line,Green,#5F8C55,Montreal
+15,Berri–UQAM,Rue Berri |Université du Québec à Montréal,"Simon Després dit Le Berry, land owner (1659) |Université du Québec à Montréal",14-10-1966,G15,45.514946,-73.56134,Green Line,Green,#5F8C55,Montreal
+16,Beaudry,Rue Beaudry,"Pierre Beaudry, landowner",21-12-1966,G18,45.519546,-73.55719,Green Line,Green,#5F8C55,Montreal
+17,Papineau,Avenue Papineau,"Joseph Papineau, Quebec politician (father of Louis-Joseph Papineau)",14-10-1966,G16,45.524049,-73.55294,Green Line,Green,#5F8C55,Montreal
+18,Frontenac,Rue Frontenac,"Louis de Buade de Frontenac, Governor General of New France",19-12-1966,G17,45.532993,-73.55248,Green Line,Green,#5F8C55,Montreal
+19,Préfontaine,Rue Préfontaine; Parc Raymond-Préfontaine,"Raymond-Fournier Préfontaine, mayor of Montreal",06-06-1976,G19,45.541717,-73.55422,Green Line,Green,#5F8C55,Montreal
+20,Joliette,Rue Joliette,"Barthélemy Joliette, founder of Joliette, Quebec",06-06-1976,G20,45.546890,-73.55113,Green Line,Green,#5F8C55,Montreal
+21,Pie-IX,Boulevard Pie-IX,Pope Pius IX,06-06-1976,G21,45.554200,-73.55150,Green Line,Green,#5F8C55,Montreal
+22,Viau,Rue Viau,"Charles-Théodore Viau, Quebec cookie magnate",06-06-1976,G22,45.561211,-73.54722,Green Line,Green,#5F8C55,Montreal
+23,Assomption,Boulevard de l'Assomption,Dogma of the Assumption of Mary,06-06-1976,G23,45.569165,-73.54721,Green Line,Green,#5F8C55,Montreal
+24,Cadillac,Rue de Cadillac,"Antoine Laumet de La Mothe, sieur de Cadillac, French explorer",06-06-1976,G24,45.576839,-73.54672,Green Line,Green,#5F8C55,Montreal
+25,Langelier,Boulevard Langelier,"François-Charles-Stanislas Langelier, mayor of Quebec City and Lieutenant Governor of Quebec",06-06-1976,G25,45.582750,-73.54318,Green Line,Green,#5F8C55,Montreal
+26,Radisson,Rue Radisson,"Pierre-Esprit Radisson, French explorer",06-06-1976,G26,45.589156,-73.53942,Green Line,Green,#5F8C55,Montreal
+27,Honoré-Beaugrand,Rue Honoré-Beaugrand,"Honoré Beaugrand, Quebec author and mayor of Montreal",06-06-1976,G27,45.596409,-73.53542,Green Line,Green,#5F8C55,Montreal
+28,Côte-Vertu,Boulevard de la Côte-Vertu,"Notre-Dame-de-la-Vertu (Our Lady of Virtue), 18th-century name for the area",03-11-1986,O1,45.514464,-73.68330,Orange Line,Orange,#D06D07,Montreal
+29,Du Collège,Rue du Collège,"Collège Saint Laurent, former ecclesiastical college, now Cégep de Saint-Laurent, local cégep",09-01-1984,O2,45.508416,-73.67295,Orange Line,Orange,#D06D07,Montreal
+30,De La Savane,Rue de la Savane,savane — a savanna or Quebec French for swamp,09-01-1984,O3,45.500300,-73.66161,Orange Line,Orange,#D06D07,Montreal
+31,Namur,Rue Namur,"Namur, Belgium",09-01-1984,O4,45.494891,-73.65290,Orange Line,Orange,#D06D07,Montreal
+32,Plamondon,Avenue Plamondon,"Antoine Plamondon, Quebec painter, or Rodolphe Plamondon, Quebec lyric artist",29-01-1982,O5,45.494376,-73.63783,Orange Line,Orange,#D06D07,Montreal
+33,Côte-Sainte-Catherine,Chemin de la Côte-Sainte-Catherine,"Côte Sainte-Catherine, 18th century name for area of Outremont",04-01-1982,O6,45.492307,-73.63286,Orange Line,Orange,#D06D07,Montreal
+34,Snowdon,Rue Snowdon; Snowdon neighbourhood,Name of area's former landowner,7/09/1981 ,O7,45.486950,-73.62741,Orange Line,Orange,#D06D07,Montreal
+35,Villa-Maria,Villa-Maria High School,"Latin form of ""Ville-Marie"", former name of Montreal",07-09-1981,O8,45.479650,-73.61971,Orange Line,Orange,#D06D07,Montreal
+36,Vendôme,Avenue de Vendôme,Likely from the French Dukes of Vendôme,07-09-1981,O9,45.473921,-73.60373,Orange Line,Orange,#D06D07,Montreal
+37,Place-Saint-Henri,Place Saint-Henri,"A parish church named for Saint Henry II, to commemorate Fr. Henri-Auguste Roux",28-04-1980,O10,45.477191,-73.58666,Orange Line,Orange,#D06D07,Montreal
+38,Lionel-Groulx,Avenue Lionel-Groulx,"Fr. Lionel Groulx, Quebec historian",28-04-1980,O11,45.482097,-73.58071,Orange Line,Orange,#D06D07,Montreal
+39,Georges-Vanier,Boulevard Georges-Vanier,"Georges Vanier, Governor General of Canada",28-04-1980,O12,45.488977,-73.57651,Orange Line,Orange,#D06D07,Montreal
+40,Lucien-L'Allier,Rue Lucien-L'Allier,"Lucien L'Allier, Quebec engineer, designer of the Metro",28-04-1980,O13,45.494993,-73.57097,Orange Line,Orange,#D06D07,Montreal
+41,Bonaventure,Place Bonaventure,"Gare Bonaventure, in turn for former Rue Bonaventure; St Bonaventure, Italian cleric",13-02-1967,O14,45.498269,-73.56709,Orange Line,Orange,#D06D07,Montreal
+42,Square-Victoria–OACI,Square Victoria |International Civil Aviation Organization,Queen Victoria |Nearby headquarters of ICAO,06-02-1967,O15,45.502033,-73.56312,Orange Line,Orange,#D06D07,Montreal
+43,Place-d'Armes,Place d'Armes,Historical rallying point for city's defenders,14-10-1966,O16,45.506063,-73.55976,Orange Line,Orange,#D06D07,Montreal
+44,Champ-de-Mars,Champ de Mars Park,"Common term for military exercise ground (Mars, god of war)",14-10-1966,O17,45.510082,-73.55642,Orange Line,Orange,#D06D07,Montreal
+45,Berri–UQAM,Rue Berri |Université du Québec à Montréal,"Simon Després dit Le Berry, land owner (1659) |Université du Québec à Montréal",14-10-1966,O18,45.515757,-73.56178,Orange Line,Orange,#D06D07,Montreal
+46,Sherbrooke,Rue Sherbrooke,"John Coape Sherbrooke, Governor General of British North America",14-10-1966,O19,45.518654,-73.56809,Orange Line,Orange,#D06D07,Montreal
+47,Mont-Royal,Avenue du Mont-Royal,Mount Royal,14-10-1966,O20,45.524718,-73.58144,Orange Line,Orange,#D06D07,Montreal
+48,Laurier,Avenue Laurier,"Wilfrid Laurier, Prime Minister of Canada",14-10-1966,O21,45.528224,-73.58861,Orange Line,Orange,#D06D07,Montreal
+49,Rosemont,Boulevard Rosemont; Rosemont neighbourhood,"Named by developer U.-H. Dandurand for his mother, née Rose Phillips",14-10-1966,O22,45.531567,-73.59741,Orange Line,Orange,#D06D07,Montreal
+50,Beaubien,Rue Beaubien,Prominent landowning family,14-10-1966,O23,45.535146,-73.60458,Orange Line,Orange,#D06D07,Montreal
+51,Jean-Talon,Rue Jean-Talon,"Jean Talon, intendant of New France",14/10/1966 ,O24,45.539233,-73.61383,Orange Line,Orange,#D06D07,Montreal
+52,Jarry,Rue Jarry,"Stanislas Blénier dit Jarry père, landowner",14-10-1966,O25,45.543241,-73.62866,Orange Line,Orange,#D06D07,Montreal
+53,Crémazie,Boulevard Crémazie,"Octave Crémazie, Québécois poet",14-10-1966,O26,45.546086,-73.63883,Orange Line,Orange,#D06D07,Montreal
+54,Sauvé,Rue Sauvé,Name of a landowner,14-10-1966,O27,45.550862,-73.65570,Orange Line,Orange,#D06D07,Montreal
+55,Henri-Bourassa,Boulevard Henri-Bourassa,"Henri Bourassa, Quebec journalist and politician",14-10-1966,O28,45.554477,-73.66815,Orange Line,Orange,#D06D07,Montreal
+56,Cartier,Boulevard Cartier,"Sir George-Étienne Cartier Quebec politician, Father of Confederation",28-04-2007,O29,45.559843,-73.68202,Orange Line,Orange,#D06D07,Montreal
+57,De La Concorde,Boulevard de la Concorde,Place de la Concorde in Paris,28-04-2007,O30,45.560685,-73.70956,Orange Line,Orange,#D06D07,Montreal
+58,Montmorency,Collège Montmorency,"François de Montmorency-Laval, first Roman Catholic Bishop of Quebec and landowner of Île Jésus (Laval)",28-04-2007,O31,45.558286,-73.72153,Orange Line,Orange,#D06D07,Montreal
+59,Snowdon,Rue Snowdon; Snowdon neighbourhood,Name of area's former landowner,4/01/1988 ,B1,45.486948,-73.62734,Blue Line,Blue,#3465B4,Montreal
+60,Côte-des-Neiges,Chemin de la Côte-des-Neiges; Côte-des-Neiges neighbourhood,Former Village of Côte-des-Neiges; name Notre-Dame-des-Neiges (Our Lady of the Snows) dates to 18th century,04-01-1988,B2,45.496651,-73.62349,Blue Line,Blue,#3465B4,Montreal
+61,Université-de-Montréal,Université de Montréal,Université de Montréal,04-01-1988,B3,45.503452,-73.61756,Blue Line,Blue,#3465B4,Montreal
+62,Édouard-Montpetit,Boulevard Édouard-Montpetit,"Édouard Montpetit, Quebec lawyer, economist and academic",04-01-1988,B4,45.510131,-73.61256,Blue Line,Blue,#3465B4,Montreal
+63,Outremont,Avenue Outremont; borough of Outremont,"Named for a prominent estate (Outremont means ""other side of the mountain"")",04-01-1988,B5,45.520087,-73.61490,Blue Line,Blue,#3465B4,Montreal
+64,Acadie,Boulevard de l'Acadie,Commemorates bicentennial of the expulsion of the Acadians,28-03-1988,B6,45.523220,-73.62377,Blue Line,Blue,#3465B4,Montreal
+65,Parc,Avenue du Parc,Mount Royal Park,15-06-1987,B7,45.530434,-73.62445,Blue Line,Blue,#3465B4,Montreal
+66,De Castelnau,Rue de Castelnau,"Édouard de Castelnau, French soldier",16-06-1986,B8,45.535284,-73.62003,Blue Line,Blue,#3465B4,Montreal
+67,Jean-Talon,Rue Jean-Talon,"Jean Talon, intendant of New France",16/06/1986 ,B9,45.539497,-73.61335,Blue Line,Blue,#3465B4,Montreal
+68,Fabre,Rue Fabre,"Édouard-Charles Fabre, first Roman Catholic Bishop of Montreal",16-06-1986,B10,45.546727,-73.60792,Blue Line,Blue,#3465B4,Montreal
+69,D'Iberville,Rue d'Iberville,"Pierre Le Moyne d'Iberville, Quebec explorer, founder of Louisiana",16-06-1986,B11,45.553078,-73.60227,Blue Line,Blue,#3465B4,Montreal
+70,Saint-Michel,Boulevard Saint-Michel; neighbourhood of Saint-Michel,Saint Michael; long-standing name,16-06-1986,B12,45.559813,-73.59994,Blue Line,Blue,#3465B4,Montreal
+71,Berri–UQAM,Rue Berri |Université du Québec à Montréal,"Simon Després dit Le Berry, land owner (1659) |Université du Québec à Montréal",01-04-1967,Y1,45.515027,-73.56126,Yellow Line,Yellow,#F1CE00,Montreal
+72,Jean-Drapeau,Parc Jean-Drapeau,"Jean Drapeau, late ex-mayor of Montreal",01-04-1967,Y2,45.512435,-73.53317,Yellow Line,Yellow,#F1CE00,Montreal
+73,Longueuil–Université-de-Sherbrooke,"City of Longueuil |Université de Sherbrooke, Longueuil campus, in Édifice Saint-Charles","Probably for a town in Normandy |Université de Sherbrooke, Longueuil campus, in Édifice Saint-Charles",01-04-1967,Y3,45.524966,-73.52197,Yellow Line,Yellow,#F1CE00,Montreal

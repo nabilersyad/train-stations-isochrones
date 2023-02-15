@@ -1,0 +1,12 @@
+folium==0.12.1
+pandas==1.1.4
+shapely
+fiona
+requests
+openrouteservice==2.2.3
+ortools
+jupyter
+plotly==4.12.0
+numpy==1.19.4
+streamlit==1.2.0
+streamlit-folium==0.4.0

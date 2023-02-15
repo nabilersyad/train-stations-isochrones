@@ -1,0 +1,29 @@
+Name,Stop ID,Route Name,ns1:coordinates,Longitude,Latitude,City,Line Colour
+UNIMAS Pintu Timur,SM1,Samarahan Line,"110.4537989,1.4570676",110.4537989,1.4570676,Kuching,Blue
+Aiman Mall,SM2,Samarahan Line,"110.4441322,1.4567651",110.4441322,1.4567651,Kuching,Blue
+Wisma SALCRA,SM3,Samarahan Line,"110.4254709,1.4581693",110.4254709,1.4581693,Kuching,Blue
+UNIMAS,SM4,Samarahan Line,"110.4186264,1.4643525",110.4186264,1.4643525,Kuching,Blue
+Sarawak Heart Centre,SM5,Samarahan Line,"110.4179972,1.4703614",110.4179972,1.4703614,Kuching,Blue
+Riveria,SM6,Samarahan Line,"110.4016695,1.4949266",110.4016695,1.4949266,Kuching,Blue
+NorthBank,SM7,Samarahan Line,"110.3941266,1.509676",110.3941266,1.509676,Kuching,Blue
+Tabuan Jaya Police Complex,SM8,Samarahan Line,"110.3798143,1.5228058",110.3798143,1.5228058,Kuching,Blue
+VivaCity Megamall,SM9,Samarahan Line,"110.369968,1.5274974",110.369968,1.5274974,Kuching,Blue
+Wisma Persekutuan Public Carpark,IS1,Samarahan Line,"110.3614022,1.5333752",110.3614022,1.5333752,Kuching,Blue
+The Spring,SM11,Samarahan Line,"110.356998,1.5351537",110.356998,1.5351537,Kuching,Blue
+Kuching Public Works Department,SM12,Samarahan Line,"110.3427162,1.5352618",110.3427162,1.5352618,Kuching,Blue
+Sarawak General Hospital,SM13,Samarahan Line,"110.3374204,1.5434529",110.3374204,1.5434529,Kuching,Blue
+"Padang Pasir, Hikmah Exchange",SM14,Samarahan Line,"110.3409734,1.5576861",110.3409734,1.5576861,Kuching,Blue
+JPJ,SR1,Serian Line,"110.3352371,1.4098215",110.3352371,1.4098215,Kuching,Red
+10th Mile Bazaar,SR2,Serian Line,"110.3276619,1.4263315",110.3276619,1.4263315,Kuching,Red
+SMK Wira Penrissen,SR3,Serian Line,"110.3289963,1.4448441",110.3289963,1.4448441,Kuching,Red
+Sentosa Parade,SR4,Serian Line,"110.3278645,1.4650524",110.3278645,1.4650524,Kuching,Red
+Kuching Sentral,SR5,Serian Line,"110.3340325,1.4809685",110.3340325,1.4809685,Kuching,Red
+Kuching International Airport,SR6,Serian Line,"110.3415521,1.4876307",110.3415521,1.4876307,Kuching,Red
+RH Plaza,SR7,Serian Line,"110.3490735,1.5034763",110.3490735,1.5034763,Kuching,Red
+Emporium,SR8,Serian Line,"110.3530777,1.5159708",110.3530777,1.5159708,Kuching,Red
+Swinburne University,SR9,Serian Line,"110.3580678,1.5322919",110.3580678,1.5322919,Kuching,Red
+Wisma Persekutuan Public Carpark,IS1,Serian Line,"110.3614022,1.5335685",110.3614022,1.5335685,Kuching,Red
+Chung Hua Middle School No. 3,SR11,Serian Line,"110.3703317,1.5403526",110.3703317,1.5403526,Kuching,Red
+Puspakom,SR12,Serian Line,"110.3849633,1.5542999",110.3849633,1.5542999,Kuching,Red
+Bintawa Industrial Estate,SR13,Serian Line,"110.387922,1.5660575",110.387922,1.5660575,Kuching,Red
+Borneo Convention Centre Kuching,SR14,Serian Line,"110.4024273,1.5630062",110.4024273,1.5630062,Kuching,Red
