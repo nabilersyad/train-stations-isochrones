@@ -10,3 +10,4 @@ plotly==4.12.0
 numpy==1.24.3
 streamlit==1.2.0
 streamlit-folium==0.4.0
+protobuf==3.20.3

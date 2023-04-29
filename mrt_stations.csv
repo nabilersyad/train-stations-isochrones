@@ -1,0 +1,163 @@
+Alpha-numeric code(s),Station name English • Malay,Opening,Name(s) during planning stages,Abbreviation,Interchange; Adjacent transportation,Route Code
+NS1,Jurong East,10-Mar-90,Jurong East,JUR,East–West Line —  Jurong East,NSL
+NS2,Bukit Batok,10-Mar-90,Bukit Batok South,BBT,Bukit Batok,NSL
+NS3,Bukit Gombak,10-Mar-90,Bukit Batok North,BGB,—,NSL
+NS4 ,Choa Chu Kang,10-Mar-90,Choa Chu Kang,CCK,Bukit Panjang LRT —  Choa Chu Kang,NSL
+NS5,Yew Tee,10-Feb-96,Choa Chu Kang North,YWT,—,NSL
+NS7,Kranji,10-Feb-96,Kranji,KRJ,—,NSL
+NS8,Marsiling,10-Feb-96,Woodlands West,MSL,—,NSL
+NS9,Woodlands,10-Feb-96,Woodlands Central,WDL,Thomson–East Coast Line —  Woodlands  Woodlands Temporary,NSL
+NS10,Admiralty,10-Feb-96,Woodlands East,ADM,—,NSL
+NS11,Sembawang,10-Feb-96,Sembawang,SBW,Sembawang,NSL
+NS12,Canberra,02-Nov-19,Canberra,CBR,—,NSL
+NS13,Yishun,20-Dec-88,Nee Soon North,YIS,Yishun,NSL
+NS14,Khatib,20-Dec-88,Nee Soon South,KTB,—,NSL
+NS15,Yio Chu Kang,07-Nov-87,Yio Chu Kang,YCK,Yio Chu Kang,NSL
+NS16,Ang Mo Kio,07-Nov-87,Ang Mo Kio,AMK,Ang Mo Kio,NSL
+NS17,Bishan,07-Nov-87,"Kampong San Teng, San Teng",BSH,Circle Line —  Bishan,NSL
+NS18,Braddell,07-Nov-87,Braddell,BDL,—,NSL
+NS19,Toa Payoh,07-Nov-87,Toa Payoh,TAP,Toa Payoh,NSL
+NS20,Novena,12-Dec-87,Thomson,NOV,—,NSL
+NS21,Newton,12-Dec-87,Newton Circus,NEW,Downtown Line,NSL
+NS22,Orchard,12-Dec-87,"Scotts, Orchard Boulevard",ORC,Thomson–East Coast Line,NSL
+NS23,Somerset,12-Dec-87,Killiney,SOM,—,NSL
+NS24,Dhoby Ghaut,12-Dec-87,Dhoby Ghaut,DBG,North East Line Circle Line,NSL
+NS25,City Hall,12-Dec-87,Saint Andrew's,CTH,East–West Line,NSL
+NS26,Raffles Place,12-Dec-87,Central,RFP,East–West Line,NSL
+NS27,Marina Bay,04-Nov-89,"Telok Ayer Basin, Marina South",MRB,Circle Line Extension Thomson–East Coast Line,NSL
+NS28,Marina South Pier,23-Nov-14,"Marina View, Marina Pier",MSP,Marina South Pier Marina Bay Cruise Centre,NSL
+EW1,Pasir Ris,16-Dec-89,Pasir Ris,PSR,Pasir Ris,EWL
+EW2,Tampines,16-Dec-89,Tampines North,TAM,Downtown Line —  Tampines  Tampines Concourse,EWL
+EW3,Simei,16-Dec-89,Tampines South,SIM,—,EWL
+EW4,Tanah Merah,04-Nov-89,"Bedok, Changi",TNM,EWL Changi Airport Branch Line,EWL
+EW5,Bedok,04-Nov-89,Chai Chee,BDK,Bedok,EWL
+EW6,Kembangan,04-Nov-89,Frankel,KEM,—,EWL
+EW7,Eunos,04-Nov-89,Eunos,EUN,Eunos,EWL
+EW8,Paya Lebar,04-Nov-89,Paya Lebar,PYL,Circle Line,EWL
+EW9,Aljunied,04-Nov-89,Aljunied,ALJ,—,EWL
+EW10,Kallang,04-Nov-89,Geylang,KAL,Lorong 1 Geylang,EWL
+EW11,Lavender,04-Nov-89,Crawford,LVR,—,EWL
+EW12,Bugis,04-Nov-89,"Rochore, Victoria",BGS,Downtown Line,EWL
+EW13,City Hall,12-Dec-87,Saint Andrew's,CTH,North–South Line,EWL
+EW14,Raffles Place,12-Dec-87,Central,RFP,North–South Line,EWL
+EW15,Tanjong Pagar,12-Dec-87,Maxwell,TPG,Shenton Way,EWL
+EW16,Outram Park,12-Dec-87,Outram Park,OTP,North East Line Thomson–East Coast Line —  Kampong Bahru,EWL
+EW17,Tiong Bahru,12-Mar-88,Tiong Bahru,TIB,Tiong Bahru,EWL
+EW18,Redhill,12-Mar-88,Alexandra,RDH,—,EWL
+EW19,Queenstown,12-Mar-88,"Princess, Commonwealth",QUE,—,EWL
+EW20,Commonwealth,12-Mar-88,Queenstown,COM,—,EWL
+EW21,Buona Vista,12-Mar-88,North Buona Vista,BNV,Circle Line —  Buona Vista  Ghim Moh,EWL
+EW22,Dover,18-Oct-01,Polytechnic,DVR,—,EWL
+EW23,Clementi,12-Mar-88,Clementi,CLE,Clementi,EWL
+EW24,Jurong East,05-Nov-88,"Jurong, Jurong Town",JUR,North–South Line —  Jurong East,EWL
+EW25,Chinese Garden,05-Nov-88,Jurong Lake,CNG,—,EWL
+EW26,Lakeside,05-Nov-88,Corporation,LKS,—,EWL
+EW27,Boon Lay,06-Jul-90,Jurong West,BNL,Boon Lay,EWL
+EW28,Pioneer,28-Feb-09,Pioneer,PNR,—,EWL
+EW29,Joo Koon,28-Feb-09,Joo Koon,JKN,Joo Koon,EWL
+EW30,Gul Circle,18-Jun-17,Tuas,GCL,—,EWL
+EW31,Tuas Crescent,18-Jun-17,Tuas Crescent,TCR,—,EWL
+EW32,Tuas West Road,18-Jun-17,Tuas West,TWR,—,EWL
+EW33,Tuas Link,18-Jun-17,Tuas Link,TLK,Tuas —  Tuas Checkpoint,EWL
+CG1,Expo,10-Jan-01,Somapah,XPO,Downtown Line,CAL
+CG2,Changi Airport,08-Feb-02,Changi Airport,CGA,Changi Airport —  Changi Airport Terminals 1-4,CAL
+NE1,HarbourFront,20-Jun-03,World Trade Centre,HBF,Circle Line —  HarbourFront —  Sentosa Express VivoCity  Singapore Cable Car Mount Faber Line  Singapore Cruise Centre,NEL
+NE3,Outram Park,20-Jun-03,Outram Park,OTP,East–West Line Thomson–East Coast Line —  Kampong Bahru,NEL
+NE4,Chinatown,20-Jun-03,People's Park,CNT,Downtown Line,NEL
+NE5,Clarke Quay,20-Jun-03,Clarke Quay,CQY,—,NEL
+NE6,Dhoby Ghaut,20-Jun-03,Dhoby Ghaut,DBG,North–South Line Circle Line,NEL
+NE7,Little India,20-Jun-03,Kandang Kerbau,LTI,Downtown Line,NEL
+NE8,Farrer Park,20-Jun-03,Farrer Park,FRP,—,NEL
+NE9,Boon Keng,20-Jun-03,Boon Keng,BNK,—,NEL
+NE10,Potong Pasir,20-Jun-03,Sennett,PTP,—,NEL
+NE11,Woodleigh,20-Jun-11,Woodleigh,WLH,Bidadari[16],NEL
+NE12,Serangoon,20-Jun-03,Serangoon,SER,Circle Line —  Serangoon,NEL
+NE13,Kovan,20-Jun-03,Kovan,KVN,—,NEL
+NE14,Hougang,20-Jun-03,Hougang,HGN,Hougang Central,NEL
+NE15,Buangkok,15-Jan-06,Buangkok,BGK,Buangkok[16],NEL
+NE16,Sengkang,20-Jun-03,Sengkang,SKG,Sengkang LRT —  Sengkang,NEL
+NE17,Punggol,20-Jun-03,Punggol,PGL,Punggol LRT —  Punggol,NEL
+CC1,Dhoby Ghaut,17-Apr-10,Dhoby Ghaut,DBG,North–South Line North East Line,CCL
+CC2,Bras Basah,17-Apr-10,Museum / Bras Basah,BBS,—,CCL
+CC3,Esplanade,17-Apr-10,"Convention Centre, Esplanade / Suntec",EPN,—,CCL
+CC4,Promenade,17-Apr-10,"Millenia, Promenade / Marina Centre / Sheares",PMN,Downtown Line —  Marina Centre,CCL
+CC5,Nicoll Highway,17-Apr-10,Nicoll Highway / Kampong Glam,NCH,—,CCL
+CC6,Stadium,17-Apr-10,"Boulevard, Stadium / Tanjong Rhu",SDM,—,CCL
+CC7,Mountbatten,17-Apr-10,Old Airport Road / Mountbatten,MBT,—,CCL
+CC8,Dakota,17-Apr-10,"Tanjong Katong, Dakota / Dunman",DKT,—,CCL
+CC9,Paya Lebar,17-Apr-10,Paya Lebar,PYL,East–West Line,CCL
+CC10,MacPherson,17-Apr-10,MacPherson / Ubi,MPS,Downtown Line,CCL
+CC11,Tai Seng,17-Apr-10,Upper Paya Lebar / Tai Seng / Kim Chuan,TSG,—,CCL
+CC12,Bartley,28-May-09,Bartley / How Sun,BLY,—,CCL
+CC13,Serangoon,28-May-09,Serangoon,SER,North East Line —  Serangoon,CCL
+CC14,Lorong Chuan,28-May-09,Lorong Chuan / Mei Hwan,LRC,—,CCL
+CC15,Bishan,28-May-09,Bishan,BSH,North–South Line —  Bishan,CCL
+CC16,Marymount,28-May-09,Marymount / Shunfu,MRM,—,CCL
+CC17,Caldecott,08-Oct-11,Thomson / Caldecott,CDT,Thomson–East Coast Line,CCL
+CC19,Botanic Gardens • Kebun Bunga,08-Oct-11,"Adam, Botanic Gardens / Cluny Road",BTN,Downtown Line,CCL
+CC20,Farrer Road,08-Oct-11,"Farrer, Farrer Road / Woollerton",FRR,—,CCL
+CC21,Holland Village,08-Oct-11,"Holland, Holland Village / Chip Bee",HLV,—,CCL
+CC22,Buona Vista,08-Oct-11,Buona Vista,BNV,East–West Line —  Buona Vista  Ghim Moh,CCL
+CC23,one-north,08-Oct-11,one-north / Portsdown / Ayer Rajah,ONH,—,CCL
+CC24,Kent Ridge,08-Oct-11,National University Hospital / Kent Ridge,KRG,—,CCL
+CC25,Haw Par Villa,08-Oct-11,West Coast / Haw Par Villa,HPV,—,CCL
+CC26,Pasir Panjang,08-Oct-11,Pasir Panjang / Bukit Chandu,PPJ,—,CCL
+CC27,Labrador Park,08-Oct-11,Alexandra / Tanjong Berlayar,LBD,—,CCL
+CC28,Telok Blangah,08-Oct-11,Telok Blangah / Keppel,TLB,—,CCL
+CC29,HarbourFront,08-Oct-11,HarbourFront,HBF,North East Line —  HarbourFront —  Sentosa Express VivoCity  Singapore Cable Car Mount Faber Line  Singapore Cruise Centre,CCL
+CE1,Bayfront,14-Jan-12,Bayfront / Marina Bay Sands,BFT,Downtown Line,CCLe
+CE2,Marina Bay,14-Jan-12,Marina Bay,MRB,North–South Line Thomson–East Coast Line,CCLe
+DT1,Bukit Panjang,27-Dec-15,Petir,BKP,Bukit Panjang LRT —  Bukit Panjang,DTL
+DT2,Cashew,27-Dec-15,Cashew / Chestnut / Hazel Park,CSW,—,DTL
+DT3,Hillview,27-Dec-15,Hillview / Dairy Farm / Upper Bukit Timah,HVW,—,DTL
+DT5,Beauty World,27-Dec-15,Beauty World / Anak Bukit / Seventh Mile,BTW,Beauty World[16],DTL
+DT6,King Albert Park,27-Dec-15,Blackmore / Dunearn / King Albert Park,KAP,—,DTL
+DT7,Sixth Avenue,27-Dec-15,Sixth Avenue / Bukit Timah / Eng Neo,SAV,—,DTL
+DT8,Tan Kah Kee,27-Dec-15,Duchess / Hillcrest / Watten / Kah Kee,TKK,—,DTL
+DT9,Botanic Gardens • Kebun Bunga,27-Dec-15,Botanic Gardens,BTN,Circle Line,DTL
+DT10,Stevens,27-Dec-15,Stevens / Whitley / Wayang Satu,STV,Thomson–East Coast Line,DTL
+DT11,Newton,27-Dec-15,Newton,NEW,North–South Line,DTL
+DT12,Little India,27-Dec-15,Little India,LTI,North East Line,DTL
+DT13,Rochor,27-Dec-15,Rochor / Tekka / Ophir,RCR,—,DTL
+DT14,Bugis,22-Dec-13,Bugis,BGS,East–West Line,DTL
+DT15,Promenade,22-Dec-13,Promenade,PMN,Circle Line —  Marina Centre,DTL
+DT16,Bayfront,22-Dec-13,Bayfront,BFT,Circle Line Extension,DTL
+DT17,Downtown,22-Dec-13,Landmark / Central Boulevard,DTN,—,DTL
+DT18,Telok Ayer,22-Dec-13,Cross Street / Telok Ayer,TLA,—,DTL
+DT19,Chinatown,22-Dec-13,Hong Lim / Chinatown,CNT,North East Line,DTL
+DT20,Fort Canning,21-Oct-17,River Valley / Fort Canning,FCN,—,DTL
+DT21,Bencoolen,21-Oct-17,Bencoolen / Waterloo,BCL,—,DTL
+DT22,Jalan Besar,21-Oct-17,Sungei Road / Jalan Besar,JLB,—,DTL
+DT23,Bendemeer,21-Oct-17,"Jalan Besar, Bendemeer / Kallang Avenue",BDM,—,DTL
+DT24,Geylang Bahru,21-Oct-17,"Kallang Bahru, Geylang Bahru / Kolam Ayer",GLB,—,DTL
+DT25,Mattar,21-Oct-17,Mattar / Merpati,MTR,—,DTL
+DT26,MacPherson,21-Oct-17,MacPherson,MPS,Circle Line,DTL
+DT27,Ubi,21-Oct-17,Ubi / Kampong Ubi,UBI,—,DTL
+DT28,Kaki Bukit,21-Oct-17,Kaki Bukit,KKB,—,DTL
+DT29,Bedok North,21-Oct-17,Bedok Town Park / Bedok North,BDN,—,DTL
+DT30,Bedok Reservoir,21-Oct-17,Bedok Reservoir,BDR,—,DTL
+DT31,Tampines West,21-Oct-17,Tampines West,TPW,—,DTL
+DT32,Tampines,21-Oct-17,Tampines,TAM,East–West Line —  Tampines  Tampines Concourse,DTL
+DT33,Tampines East,21-Oct-17,Tampines East,TPE,—,DTL
+DT34,Upper Changi,21-Oct-17,Upper Changi / Somapah,UPC,—,DTL
+DT35,Expo,21-Oct-17,Expo,XPO,EWL Changi Airport Branch Line,DTL
+TE1,Woodlands North,31 January 2020[19],Woodlands North / Republic Polytechnic[c] / Admiralty Park,WDN,—,TEL
+TE2,Woodlands,31 January 2020[19],Woodlands,WDL,North–South Line —  Woodlands  Woodlands Temporary,TEL
+TE3,Woodlands South,31 January 2020[19],Woodlands South / Ulu Sembawang / Woodgrove,WDS,—,TEL
+TE4,Springleaf,28-Aug-21,Springleaf / Nee Soon / Thong Soon,SPL,—,TEL
+TE5,Lentor,28-Aug-21,Lentor / Ulu Seletar / Teachers' Estate,LTR,—,TEL
+TE6,Mayflower,28-Aug-21,Mayflower / Kebun Baru / Ang Mo Kio West,MFL,—,TEL
+TE7,Bright Hill,28-Aug-21,Sin Ming / Bishan Park / Bright Hill,BRH,—,TEL
+TE8,Upper Thomson,28-Aug-21,Upper Thomson / Thomson Plaza / Thomson Park,UTS,—,TEL
+TE9,Caldecott,28-Aug-21,Caldecott,CDT,Circle Line,TEL
+TE11,Stevens,13 November 2022[21],Stevens,STV,Downtown Line,TEL
+TE12,Napier,13 November 2022[21],Napier / Botanic Gardens South / Taman Serasi,NPR,—,TEL
+TE13,Orchard Boulevard,13 November 2022[21],Orchard Boulevard / Grange Road / Tanglin,OBV,—,TEL
+TE14,Orchard,13 November 2022[21],Orchard,ORC,North–South Line,TEL
+TE15,Great World,13 November 2022[21],Great World / Kim Seng / River Valley,GRW,—,TEL
+TE16,Havelock,13 November 2022[21],Havelock / Bukit Ho Swee / Zion Road,HVL,—,TEL
+TE17,Outram Park,13 November 2022[21],Outram Park,OTP,East–West Line North East Line —  Kampong Bahru,TEL
+TE18,Maxwell,13 November 2022[21],Maxwell / Ann Siang Hill / Neil Road,MAX,—,TEL
+TE19,Shenton Way,13 November 2022[21],Shenton Way / Asia Square / McCallum,SHW,—,TEL
+TE20,Marina Bay,13 November 2022[21],Marina Bay,MRB,North–South Line Circle Line Extension,TEL
+TE22,Gardens by the Bay • Taman di Pesisiran,13-Nov-22,Gardens by the Bay / Marina Barrage / Marina Gardens,GRB,—,TEL

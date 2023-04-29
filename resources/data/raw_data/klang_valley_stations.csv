@@ -1,41 +1,8 @@
-Name,Stop ID,Service Provider Name,Latitude,Longitude,ROUTE ID,Route Name,Line Number,Line Colour,Colour Hex Code,City
-SENTUL TIMUR,AG1,Rapid KL,3.185821,101.695335,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
-PUDU,AG10,Rapid KL,3.134920,101.712011,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
-CHAN SOW LIN,AG11,Rapid KL,3.128025,101.715546,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
-MIHARJA,AG12,Rapid KL,3.120931,101.717861,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
-MALURI,AG13,Rapid KL,3.123276,101.726946,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
-PANDAN JAYA,AG14,Rapid KL,3.130258,101.738991,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
-PANDAN INDAH,AG15,Rapid KL,3.134827,101.746748,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
-CEMPAKA,AG16,Rapid KL,3.138458,101.752945,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
-CAHAYA,AG17,Rapid KL,3.140643,101.756607,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
-AMPANG,AG18,Rapid KL,3.150512,101.760127,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
-SENTUL,AG2,Rapid KL,3.178591,101.695510,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
-TITIWANGSA,AG3,Rapid KL,3.173591,101.695273,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
-PWTC,AG4,Rapid KL,3.166563,101.693594,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
-SULTAN ISMAIL,AG5,Rapid KL,3.161185,101.694127,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
-BANDARAYA,AG6,Rapid KL,3.155548,101.694406,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
-MASJID JAMEK,AG7,Rapid KL,3.149462,101.696396,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
-PLAZA RAKYAT,AG8,Rapid KL,3.144264,101.702054,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
-HANG TUAH,AG9,Rapid KL,3.139843,101.706133,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
+﻿Name,Stop ID,Service Provider Name,Latitude,Longitude,ROUTE ID,Route Name,Line Number,Line Colour,Colour Hex Code,City
 KL SENTRAL,KA01,Keretapi Tanah Melayu,3.134603,101.686567,KA,Seremban Line,1,Blue,#0000FF,Klang Valley
-KL SENTRAL,KA01,Keretapi Tanah Melayu,3.134603,101.686567,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
 KUALA LUMPUR,KA02,Keretapi Tanah Melayu,3.1395126,101.6937889,KA,Seremban Line,1,Blue,#0000FF,Klang Valley
-KUALA LUMPUR,KA02,Keretapi Tanah Melayu,3.1395804,101.693629,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
 BANK NEGARA,KA03,Keretapi Tanah Melayu,3.1545422,101.6930105,KA,Seremban Line,1,Blue,#0000FF,Klang Valley
-BANK NEGARA,KA03,Keretapi Tanah Melayu,3.1545691,101.6929903,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
 PUTRA,KA04,Keretapi Tanah Melayu,3.165005,101.691234,KA,Seremban Line,1,Blue,#0000FF,Klang Valley
-PUTRA,KA04,Keretapi Tanah Melayu,3.165005,101.691234,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
-SEGAMBUT,KA05,Keretapi Tanah Melayu,3.1864391,101.6642105,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
-KEPONG,KA06,Keretapi Tanah Melayu,3.202810,101.6374,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
-KEPONG SENTRAL,KA07,Keretapi Tanah Melayu,3.2086928,101.6285123,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
-SUNGAI BULOH,KA08,Keretapi Tanah Melayu,3.206204,101.580781,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
-KUANG,KA09,Keretapi Tanah Melayu,3.258260,101.55473,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
-RAWANG,KA10,Keretapi Tanah Melayu,3.318850,101.57498,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
-SERENDAH,KA11,Keretapi Tanah Melayu,3.3760667,101.6144481,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
-BATANG KALI,KA12,Keretapi Tanah Melayu,3.4683857,101.6377519,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
-RASA,KA13,Keretapi Tanah Melayu,3.5003142,101.6341973,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
-KUALA KUBU BHARU,KA14,Keretapi Tanah Melayu,3.5532917,101.6395744,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
-TANJUNG MALIM,KA15,Keretapi Tanah Melayu,3.6847038,101.5182181,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
 MID VALLEY,KB01,Keretapi Tanah Melayu,3.1185282,101.6789854,KB,Seremban Line,1,Blue,#0000FF,Klang Valley
 SEPUTEH,KB02,Keretapi Tanah Melayu,3.1136966,101.6812992,KB,Seremban Line,1,Blue,#0000FF,Klang Valley
 SALAK SELATAN,KB03,Keretapi Tanah Melayu,3.098229,101.7053567,KB,Seremban Line,1,Blue,#0000FF,Klang Valley
@@ -58,6 +25,21 @@ BATU KENTOMEN,KC02,Keretapi Tanah Melayu,3.1983357,101.6811632,KC,Seremban Line,
 KAMPUNG BATU,KC03,Keretapi Tanah Melayu,3.2047963,101.675646,KC,Seremban Line,1,Blue,#0000FF,Klang Valley
 TAMAN WAHYU,KC04,Keretapi Tanah Melayu,3.2145439,101.6721822,KC,Seremban Line,1,Blue,#0000FF,Klang Valley
 BATU CAVES,KC05,Keretapi Tanah Melayu,3.2378874,101.6811872,KC,Seremban Line,1,Blue,#0000FF,Klang Valley
+KL SENTRAL,KA01,Keretapi Tanah Melayu,3.134603,101.686567,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
+KUALA LUMPUR,KA02,Keretapi Tanah Melayu,3.1395804,101.693629,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
+BANK NEGARA,KA03,Keretapi Tanah Melayu,3.1545691,101.6929903,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
+PUTRA,KA04,Keretapi Tanah Melayu,3.165005,101.691234,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
+SEGAMBUT,KA05,Keretapi Tanah Melayu,3.1864391,101.6642105,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
+KEPONG,KA06,Keretapi Tanah Melayu,3.202810,101.6374,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
+KEPONG SENTRAL,KA07,Keretapi Tanah Melayu,3.2086928,101.6285123,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
+SUNGAI BULOH,KA08,Keretapi Tanah Melayu,3.206204,101.580781,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
+KUANG,KA09,Keretapi Tanah Melayu,3.258260,101.55473,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
+RAWANG,KA10,Keretapi Tanah Melayu,3.318850,101.57498,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
+SERENDAH,KA11,Keretapi Tanah Melayu,3.3760667,101.6144481,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
+BATANG KALI,KA12,Keretapi Tanah Melayu,3.4683857,101.6377519,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
+RASA,KA13,Keretapi Tanah Melayu,3.5003142,101.6341973,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
+KUALA KUBU BHARU,KA14,Keretapi Tanah Melayu,3.5532917,101.6395744,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
+TANJUNG MALIM,KA15,Keretapi Tanah Melayu,3.6847038,101.5182181,KA,Port Klang Line,2,Red,#ff0000,Klang Valley
 ABDULLAH HUKUM,KD01,Keretapi Tanah Melayu,3.118735,101.672897,KD,Port Klang Line,2,Red,#ff0000,Klang Valley
 ANGKASAPURI,KD02,Keretapi Tanah Melayu,3.1135063,101.6732256,KD,Port Klang Line,2,Red,#ff0000,Klang Valley
 PANTAI DALAM,KD03,Keretapi Tanah Melayu,3.0956045,101.6700133,KD,Port Klang Line,2,Red,#ff0000,Klang Valley
@@ -77,9 +59,53 @@ TELUK GADONG,KD16,Keretapi Tanah Melayu,3.033890,101.42491,KD,Port Klang Line,2,
 KAMPUNG RAJA UDA,KD17,Keretapi Tanah Melayu,3.020160,101.41028,KD,Port Klang Line,2,Red,#ff0000,Klang Valley
 JALAN KASTAM,KD18,Keretapi Tanah Melayu,3.013000,101.4026,KD,Port Klang Line,2,Red,#ff0000,Klang Valley
 PORT KLANG,KD19,Keretapi Tanah Melayu,2.999459,101.391373,KD,Port Klang Line,2,Red,#ff0000,Klang Valley
-KL SENTRAL,KE1,Express Rail Link,3.132675,101.687891,KE,KLIA Ekspres,6,Purple,#800080,Klang Valley
-KUALA LUMPUR INTERNATIONAL AIRPORT,KE2,Express Rail Link,2.7549259,101.7048248,KE,KLIA Ekspres,6,Purple,#800080,Klang Valley
-KLIA2,KE3,Express Rail Link,2.7445694,101.685081,KE,KLIA Ekspres,6,Purple,#800080,Klang Valley
+SENTUL TIMUR,AG1,Rapid KL,3.185821,101.695335,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
+PUDU,AG10,Rapid KL,3.134920,101.712011,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
+CHAN SOW LIN,AG11,Rapid KL,3.128025,101.715546,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
+MIHARJA,AG12,Rapid KL,3.120931,101.717861,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
+MALURI,AG13,Rapid KL,3.123276,101.726946,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
+PANDAN JAYA,AG14,Rapid KL,3.130258,101.738991,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
+PANDAN INDAH,AG15,Rapid KL,3.134827,101.746748,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
+CEMPAKA,AG16,Rapid KL,3.138458,101.752945,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
+CAHAYA,AG17,Rapid KL,3.140643,101.756607,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
+AMPANG,AG18,Rapid KL,3.150512,101.760127,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
+SENTUL,AG2,Rapid KL,3.178591,101.695510,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
+TITIWANGSA,AG3,Rapid KL,3.173591,101.695273,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
+PWTC,AG4,Rapid KL,3.166563,101.693594,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
+SULTAN ISMAIL,AG5,Rapid KL,3.161185,101.694127,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
+BANDARAYA,AG6,Rapid KL,3.155548,101.694406,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
+MASJID JAMEK,AG7,Rapid KL,3.149462,101.696396,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
+PLAZA RAKYAT,AG8,Rapid KL,3.144264,101.702054,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
+HANG TUAH,AG9,Rapid KL,3.139843,101.706133,AG,Ampang Line,3,Orange,#fe8e10,Klang Valley
+SENTUL TIMUR,SP1,Rapid KL,3.185821,101.695335,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+PUDU,SP10,Rapid KL,3.134920,101.712011,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+CHAN SOW LIN,SP11,Rapid KL,3.128025,101.715546,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+CHERAS,SP12,Rapid KL,3.112747,101.714213,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+SALAK SELATAN,SP13,Rapid KL,3.102009,101.706273,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+BANDAR TUN RAZAK,SP14,Rapid KL,3.089626,101.712414,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+BANDAR TASIK SELATAN,SP15,Rapid KL,3.076067,101.711311,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+SUNGAI BESI,SP16,Rapid KL,3.063949,101.707987,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+BUKIT JALIL,SP17,Rapid KL,3.058148,101.692216,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+SRI PETALING,SP18,Rapid KL,3.061533,101.687067,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+AWAN BESAR,SP19,Rapid KL,3.062094,101.670606,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+SENTUL,SP2,Rapid KL,3.178591,101.695510,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+MUHIBBAH,SP20,Rapid KL,3.061934,101.662791,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+ALAM SUTERA,SP21,Rapid KL,3.054838,101.656693,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+KINRARA,SP22,Rapid KL,3.050456,101.644155,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+IOI PUCHONG JAYA,SP24,Rapid KL,3.048131,101.620982,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+PUSAT BANDAR PUCHONG,SP25,Rapid KL,3.033284,101.616120,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+TAMAN PERINDUSTRIAN PUCHONG (TPP),SP26,Rapid KL,3.022811,101.613433,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+BANDAR PUTERI,SP27,Rapid KL,3.017065,101.612829,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+PUCHONG PERDANA,SP28,Rapid KL,3.007852,101.605253,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+PUCHONG PRIMA,SP29,Rapid KL,2.999892,101.596738,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+TITIWANGSA,SP3,Rapid KL,3.173591,101.695273,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+PUTRA HEIGHTS,SP31,Rapid KL,2.995969,101.575544,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+PWTC,SP4,Rapid KL,3.166563,101.693594,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+SULTAN ISMAIL,SP5,Rapid KL,3.161185,101.694127,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+BANDARAYA,SP6,Rapid KL,3.155548,101.694406,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+MASJID JAMEK,SP7,Rapid KL,3.149462,101.696396,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+PLAZA RAKYAT,SP8,Rapid KL,3.144264,101.702054,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+HANG TUAH,SP9,Rapid KL,3.139843,101.706133,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
 GOMBAK,KJ1,Rapid KL,3.231206,101.724429,KJ,Kelana Jaya Line,5,Ruby,#e0115f,Klang Valley
 KLCC,KJ10,Rapid KL,3.158935,101.713287,KJ,Kelana Jaya Line,5,Ruby,#e0115f,Klang Valley
 KAMPUNG BARU,KJ11,Rapid KL,3.161386,101.706608,KJ,Kelana Jaya Line,5,Ruby,#e0115f,Klang Valley
@@ -117,9 +143,9 @@ JELATEK,KJ6,Rapid KL,3.167204,101.735344,KJ,Kelana Jaya Line,5,Ruby,#e0115f,Klan
 DATO' KERAMAT,KJ7,Rapid KL,3.165090,101.731840,KJ,Kelana Jaya Line,5,Ruby,#e0115f,Klang Valley
 DAMAI,KJ8,Rapid KL,3.164406,101.724489,KJ,Kelana Jaya Line,5,Ruby,#e0115f,Klang Valley
 AMPANG PARK,KJ9,Rapid KL,3.159894,101.719017,KJ,Kelana Jaya Line,5,Ruby,#e0115f,Klang Valley
-KL SENTRAL,KS01,Keretapi Tanah Melayu,3.132675,101.687891,KS,Skypark Link,10,Brown,#A52A2A,Klang Valley
-SUBANG JAYA,KS02,Keretapi Tanah Melayu,3.084660,101.588127,KS,Skypark Link,10,Brown,#A52A2A,Klang Valley
-TERMINAL SKYPARK,KS03,Keretapi Tanah Melayu,3.134420,101.55543,KS,Skypark Link,10,Brown,#A52A2A,Klang Valley
+KL SENTRAL,KE1,Express Rail Link,3.132675,101.687891,KE,KLIA Ekspres,6,Purple,#800080,Klang Valley
+KUALA LUMPUR INTERNATIONAL AIRPORT,KE2,Express Rail Link,2.7549259,101.7048248,KE,KLIA Ekspres,6,Purple,#800080,Klang Valley
+KLIA2,KE3,Express Rail Link,2.7445694,101.685081,KE,KLIA Ekspres,6,Purple,#800080,Klang Valley
 KL SENTRAL,KT1,Express Rail Link,3.132675,101.687891,KT,KLIA Transit,7,Teal,#139593,Klang Valley
 BANDAR TASIK SELATAN,KT2,Express Rail Link,3.076067,101.711311,KT,KLIA Transit,7,Teal,#139593,Klang Valley
 PUTRAJAYA & CYBERJAYA,KT3,Express Rail Link,2.9314193,101.6708369,KT,KLIA Transit,7,Teal,#139593,Klang Valley
@@ -137,13 +163,6 @@ BUKIT BINTANG,MR6,Rapid KL,3.146077,101.711499,MR,KL Monorail Line,8,Light Green
 RAJA CHULAN,MR7,Rapid KL,3.150837,101.710442,MR,KL Monorail Line,8,Light Green,#7dba00,Klang Valley
 BUKIT NANAS,MR8,Rapid KL,3.156244,101.704766,MR,KL Monorail Line,8,Light Green,#7dba00,Klang Valley
 MEDAN TUANKU,MR9,Rapid KL,3.159271,101.698900,MR,KL Monorail Line,8,Light Green,#7dba00,Klang Valley
-SUNWAY-SETIA JAYA,SB1,Rapid Bus,3.082920,101.61228,SB,BRT Sunway Line,B1,Dark Green,#1E4D2B,Klang Valley
-MENTARI,SB2,Rapid Bus,3.076130,101.61023,SB,BRT Sunway Line,B1,Dark Green,#1E4D2B,Klang Valley
-SUNWAY LAGOON,SB3,Rapid Bus,3.070650,101.61079,SB,BRT Sunway Line,B1,Dark Green,#1E4D2B,Klang Valley
-SUNMED,SB4,Rapid Bus,3.065540,101.60861,SB,BRT Sunway Line,B1,Dark Green,#1E4D2B,Klang Valley
-SUNU MONASH,SB5,Rapid Bus,3.065300,101.60161,SB,BRT Sunway Line,B1,Dark Green,#1E4D2B,Klang Valley
-SOUTH QUAY-USJ1,SB6,Rapid Bus,3.061620,101.59681,SB,BRT Sunway Line,B1,Dark Green,#1E4D2B,Klang Valley
-USJ7,SB7,Rapid Bus,3.055250,101.59198,SB,BRT Sunway Line,B1,Dark Green,#1E4D2B,Klang Valley
 KWASA DAMANSARA,KG04,Rapid KL,3.176150,101.572050,KG,Kajang Line,9,Green,#008000,Klang Valley
 KWASA SENTRAL,KG05,Rapid KL,3.169826,101.564913,KG,Kajang Line,9,Green,#008000,Klang Valley
 KOTA DAMANSARA,KG06,Rapid KL,3.150130,101.578690,KG,Kajang Line,9,Green,#008000,Klang Valley
@@ -173,90 +192,69 @@ BUKIT DUKUNG,KG31,Rapid KL,3.026410,101.771070,KG,Kajang Line,9,Green,#008000,Kl
 SUNGAI JERNIH,KG33,Rapid KL,3.000950,101.783860,KG,Kajang Line,9,Green,#008000,Klang Valley
 STADIUM KAJANG,KG34,Rapid KL,2.994510,101.786340,KG,Kajang Line,9,Green,#008000,Klang Valley
 KAJANG,KG35,Rapid KL,2.982780,101.790280,KG,Kajang Line,9,Green,#008000,Klang Valley
-SENTUL TIMUR,SP1,Rapid KL,3.185821,101.695335,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-PUDU,SP10,Rapid KL,3.134920,101.712011,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-CHAN SOW LIN,SP11,Rapid KL,3.128025,101.715546,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-CHERAS,SP12,Rapid KL,3.112747,101.714213,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-SALAK SELATAN,SP13,Rapid KL,3.102009,101.706273,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-BANDAR TUN RAZAK,SP14,Rapid KL,3.089626,101.712414,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-BANDAR TASIK SELATAN,SP15,Rapid KL,3.076067,101.711311,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-SUNGAI BESI,SP16,Rapid KL,3.063949,101.707987,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-BUKIT JALIL,SP17,Rapid KL,3.058148,101.692216,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-SRI PETALING,SP18,Rapid KL,3.061533,101.687067,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-AWAN BESAR,SP19,Rapid KL,3.062094,101.670606,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-SENTUL,SP2,Rapid KL,3.178591,101.695510,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-MUHIBBAH,SP20,Rapid KL,3.061934,101.662791,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-ALAM SUTERA,SP21,Rapid KL,3.054838,101.656693,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-KINRARA,SP22,Rapid KL,3.050456,101.644155,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-IOI PUCHONG JAYA,SP24,Rapid KL,3.048131,101.620982,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-PUSAT BANDAR PUCHONG,SP25,Rapid KL,3.033284,101.616120,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-TAMAN PERINDUSTRIAN PUCHONG (TPP),SP26,Rapid KL,3.022811,101.613433,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-BANDAR PUTERI,SP27,Rapid KL,3.017065,101.612829,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-PUCHONG PERDANA,SP28,Rapid KL,3.007852,101.605253,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-PUCHONG PRIMA,SP29,Rapid KL,2.999892,101.596738,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-TITIWANGSA,SP3,Rapid KL,3.173591,101.695273,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-PUTRA HEIGHTS,SP31,Rapid KL,2.995969,101.575544,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-PWTC,SP4,Rapid KL,3.166563,101.693594,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-SULTAN ISMAIL,SP5,Rapid KL,3.161185,101.694127,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-BANDARAYA,SP6,Rapid KL,3.155548,101.694406,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-MASJID JAMEK,SP7,Rapid KL,3.149462,101.696396,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-PLAZA RAKYAT,SP8,Rapid KL,3.144264,101.702054,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
-HANG TUAH,SP9,Rapid KL,3.139843,101.706133,SP,Sri Petaling Line,4,Maroon,#721422,Klang Valley
+KL SENTRAL,KS01,Keretapi Tanah Melayu,3.132675,101.687891,KS,Skypark Link,10,Brown,#A52A2A,Klang Valley
+SUBANG JAYA,KS02,Keretapi Tanah Melayu,3.084660,101.588127,KS,Skypark Link,10,Brown,#A52A2A,Klang Valley
+TERMINAL SKYPARK,KS03,Keretapi Tanah Melayu,3.134420,101.55543,KS,Skypark Link,10,Brown,#A52A2A,Klang Valley
+SUNWAY-SETIA JAYA,SB1,Rapid Bus,3.082920,101.61228,SB,BRT Sunway Line,B1,Dark Green,#1E4D2B,Klang Valley
+MENTARI,SB2,Rapid Bus,3.076130,101.61023,SB,BRT Sunway Line,B1,Dark Green,#1E4D2B,Klang Valley
+SUNWAY LAGOON,SB3,Rapid Bus,3.070650,101.61079,SB,BRT Sunway Line,B1,Dark Green,#1E4D2B,Klang Valley
+SUNMED,SB4,Rapid Bus,3.065540,101.60861,SB,BRT Sunway Line,B1,Dark Green,#1E4D2B,Klang Valley
+SUNU MONASH,SB5,Rapid Bus,3.065300,101.60161,SB,BRT Sunway Line,B1,Dark Green,#1E4D2B,Klang Valley
+SOUTH QUAY-USJ1,SB6,Rapid Bus,3.061620,101.59681,SB,BRT Sunway Line,B1,Dark Green,#1E4D2B,Klang Valley
+USJ7,SB7,Rapid Bus,3.055250,101.59198,SB,BRT Sunway Line,B1,Dark Green,#1E4D2B,Klang Valley
 SUNGAI BULOH,PY04,Rapid KL,3.206333,101.581736,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
 KAMPUNG SELAMAT,PY03,Rapid KL,3.197270,101.578500,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
 KWASA DAMANSARA,PY01,Rapid KL,3.176150,101.572050,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-DAMANSARA DAMAI,PY05,Rapid KL,3.19975,101.59291,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-SRI DAMANSARA BARAT,PY06,Rapid KL,3.19826,101.60851,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-SRI DAMANSARA SENTRAL,PY07,Rapid KL,3.19857,101.62109,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-SRI DAMANSARA TIMUR,PY08,Rapid KL,3.20759,101.62853,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-METRO PRIMA,PY09,Rapid KL,3.2145331,101.6403922,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+DAMANSARA DAMAI,PY05,Rapid KL,3.19976,101.59287,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+SRI DAMANSARA BARAT,PY06,Rapid KL,3.19822,101.60842,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+SRI DAMANSARA SENTRAL,PY07,Rapid KL,3.19854,101.62113,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+SRI DAMANSARA TIMUR,PY08,Rapid KL,3.20758,101.62859,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+METRO PRIMA,PY09,Rapid KL,3.20758,101.62859,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
 KEPONG BARU,PY10,Rapid KL,3.2116819,101.6481798,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-JINJANG,PY11,Rapid KL,3.2095612,101.655921,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-SRI DELIMA,PY12,Rapid KL,3.2071591,101.6655782,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-KAMPUNG BATU,PY13,Rapid KL,3.2058139,101.6752694,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-KENTONMEN,PY14,Rapid KL,3.1953557,101.679594,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-JALAN IPOH,PY15,Rapid KL,3.1894439,101.6810916,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-SENTUL BARAT,PY16,Rapid KL,3.1789345,101.6851407,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-TITIWANGSA,PY17,Rapid KL,3.1743686,101.6957808,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-HOSPITAL KUALA LUMPUR,PY18,Rapid KL,3.1743373,101.7007581,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-RAJA UDA,PY19,Rapid KL,3.1677147,101.7109624,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-AMPANG PARK,PY20,Rapid KL,3.1616005,101.7179084,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-PERSIARAN KLCC,PY21,Rapid KL,3.156918,101.7177689,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-CONLAY,PY22,Rapid KL,3.1504935,101.7185877,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+JINJANG,PY11,Rapid KL,3.20954,101.65579,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+SRI DELIMA,PY12,Rapid KL,3.2072,101.66556,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+KAMPUNG BATU,PY13,Rapid KL,3.206,101.67514,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+KENTONMEN,PY14,Rapid KL,3.19541,101.6796,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+JALAN IPOH,PY15,Rapid KL,3.18934,101.68115,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+SENTUL BARAT,PY16,Rapid KL,3.17881,101.68516,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+TITIWANGSA,PY17,Rapid KL,3.17446,101.69601,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+HOSPITAL KUALA LUMPUR,PY18,Rapid KL,3.17401,101.70172,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+RAJA UDA,PY19,Rapid KL,3.16789,101.71093,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+AMPANG PARK,PY20,Rapid KL,3.16172,101.71797,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+PERSIARAN KLCC,PY21,Rapid KL,3.15691,101.71821,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+CONLAY,PY22,Rapid KL,3.15069,101.71839,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
 TUN RAZAK EXCHANGE,PY23,Rapid KL,3.1428733,101.7199618,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-CHAN SOW LIN,PY24,Rapid KL,3.128639,101.7163841,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-BANDAR MALAYSIA UTARA,PY25,Rapid KL,3.1161747,101.7032583,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-BANDAR MALAYSIA SELATAN,PY26,Rapid KL,3.109663,101.6986584,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-KUCHAI,PY27,Rapid KL,3.0899187,101.6941523,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-TAMAN NAGA EMAS,PY28,Rapid KL,3.0778341,101.6994691,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-SUNGAI BESI,PY29,Rapid KL,3.0638548,101.708408,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-SERDANG RAYA UTARA,PY31,Rapid KL,3.0418259,101.7050099,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-SERDANG RAYA SELATAN,PY32,Rapid KL,3.0283734,101.7076394,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-SERDANG JAYA,PY33,Rapid KL,3.0212631,101.7088123,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-UPM,PY34,Rapid KL,3.0084664,101.7055219,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-TAMAN EQUINE,PY36,Rapid KL,2.9891967,101.6724892,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-PUTRA PERMAI,PY37,Rapid KL,2.9830917,101.6607427,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-16 SIERRA,PY38,Rapid KL,2.9653594,101.6548848,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-CYBERJAYA UTARA,PY39,Rapid KL,2.9491993,101.6575149,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-CYBERJAYA CITY CENTRE,PY40,Rapid KL,2.9388745,101.665664,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-PUTRAJAYA SENTRAL,PY41,Rapid KL,2.9312414,101.6714783,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
-BANDAR UTAMA,JS1,Rapid KL,3.14441887569451,101.618146483385,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
-KAYU ARA,JS2,Rapid KL,3.13542853375522,101.61701455642,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
-BU11,JS3,Rapid KL,3.13347192373956,101.604916896427,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
-DAMANSARA IDAMAN,JS5,Rapid KL,3.12253415832453,101.594150538026,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
-SS7,JS6,Rapid KL,3.10642068338973,101.591202896529,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
-GLENMARIE,JS7,Rapid KL,3.09585220429747,101.589185527507,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
-KERJAYA,JS9,Rapid KL,3.08231904731534,101.5624194995,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
-STADIUM SHAH ALAM,JS10,Rapid KL,3.07935686374452,101.548090607185,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
-BANDARAYA SHAH ALAM,JS12,Rapid KL,3.06967110206797,101.521314681656,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
-UITM,JS14,Rapid KL,3.06241951541184,101.501484106765,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
-HOSPITAL SHAH ALAM,JS15,Rapid KL,3.06739268180679,101.487165540004,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
-BANDAR BARU KLANG,JS17,Rapid KL,3.06255496225263,101.465626031008,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
-PASAR BESAR KLANG,JS18,Rapid KL,3.06846769670108,101.450702563834,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
-JALAN MERU,JS19,Rapid KL,3.05898513697103,101.451942911384,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
-KLANG,JS20,Rapid KL,3.04691373319776,101.446971676794,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
-TAMAN SELATAN,JS21,Rapid KL,3.02645034283064,101.442468985138,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
-SRI ANDALAS,JS22,Rapid KL,3.01522454834532,101.440441416477,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
-KLANG JAYA,JS23,Rapid KL,3.00507214198751,101.442080777086,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
-BANDAR BUKIT TINGGI,JS24,Rapid KL,2.9935261490159,101.446174815966,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
-JOHAN SETIA,JS26,Rapid KL,2.97543580892496,101.460718080528,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
+CHAN SOW LIN,PY24,Rapid KL,3.12837,101.71659,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+KUCHAI,PY27,Rapid KL,3.08962,101.6941,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+TAMAN NAGA EMAS,PY28,Rapid KL,3.07772,101.69952,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+SUNGAI BESI,PY29,Rapid KL,3.06383,101.70841,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+SERDANG RAYA UTARA,PY31,Rapid KL,3.04177,101.70493,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+SERDANG RAYA SELATAN,PY32,Rapid KL,3.02849,101.70749,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+SERDANG JAYA,PY33,Rapid KL,3.0216,101.70893,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+UPM,PY34,Rapid KL,3.00848,101.70541,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+TAMAN EQUINE,PY36,Rapid KL,2.98932,101.67257,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+PUTRA PERMAI,PY37,Rapid KL,2.9831,101.66057,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+16 SIERRA,PY38,Rapid KL,2.96528,101.65483,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+CYBERJAYA UTARA,PY39,Rapid KL,2.94924,101.65749,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+CYBERJAYA CITY CENTRE,PY40,Rapid KL,2.93895,101.66563,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+PUTRAJAYA SENTRAL,PY41,Rapid KL,2.93143,101.67147,PY,Putrajaya Line,12,Yellow,#facd04,Klang Valley
+BANDAR UTAMA,JS1,Rapid KL,3.144418876,101.6181465,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
+KAYU ARA,JS2,Rapid KL,3.135428534,101.6170146,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
+BU11,JS3,Rapid KL,3.133471924,101.6049169,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
+DAMANSARA IDAMAN,JS5,Rapid KL,3.122534158,101.5941505,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
+SS7,JS6,Rapid KL,3.106420683,101.5912029,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
+GLENMARIE,JS7,Rapid KL,3.095852204,101.5891855,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
+KERJAYA,JS9,Rapid KL,3.082319047,101.5624195,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
+STADIUM SHAH ALAM,JS10,Rapid KL,3.079356864,101.5480906,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
+BANDARAYA SHAH ALAM,JS12,Rapid KL,3.069671102,101.5213147,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
+UITM,JS14,Rapid KL,3.062419515,101.5014841,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
+HOSPITAL SHAH ALAM,JS15,Rapid KL,3.067392682,101.4871655,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
+BANDAR BARU KLANG,JS17,Rapid KL,3.062554962,101.465626,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
+PASAR BESAR KLANG,JS18,Rapid KL,3.068467697,101.4507026,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
+JALAN MERU,JS19,Rapid KL,3.058985137,101.4519429,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
+KLANG,JS20,Rapid KL,3.046913733,101.4469717,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
+TAMAN SELATAN,JS21,Rapid KL,3.026450343,101.442469,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
+SRI ANDALAS,JS22,Rapid KL,3.015224548,101.4404414,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
+KLANG JAYA,JS23,Rapid KL,3.005072142,101.4420808,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
+BANDAR BUKIT TINGGI,JS24,Rapid KL,2.993526149,101.4461748,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
+JOHAN SETIA,JS26,Rapid KL,2.975435809,101.4607181,JS,LRT3,11,Sky Blue,#88cffa,Klang Valley
