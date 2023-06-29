@@ -42,7 +42,11 @@ if __name__ == "__main__":
 
     # Combine data
     data_all = pd.concat([data_kl, data_sg, data_mtl])
+    all_cities_folder = 'all_cities'
+    # Write data to all_cities_iso with date
+    file_url = os.path.join(data_folder,all_cities_folder, 'all_cities_iso_' + str(date.today()) + '.csv')
+    data_all.to_csv(file_url, index=False)
 
-    # Write data
-    file_url = os.path.join(data_folder, 'all_cities_iso_' + str(date.today()) + '.csv')
+    # Write data to all_cities_iso for regular use
+    file_url = os.path.join(data_folder, 'all_cities_iso' + '.csv')
     data_all.to_csv(file_url, index=False)
