@@ -9,7 +9,7 @@ import folium
 import pandas as pd
 import json
 
-#helper method to setup any input dataframe into dictionaries that can be input into ORS isochrone methods and folium maps
+#helper function to setup any input dataframe into dictionaries that can be input into ORS isochrone methods and folium maps
 def dictSetup(dataframe):
     """ A function that converts dataframe into dictionaries inputs acceptable to ORS
     Note this function is no longer necessary in latest isochrones.py update
@@ -33,7 +33,10 @@ def dictSetup(dataframe):
     station_dict = dataframe.to_dict(orient='index')
     #TODO: try and catch error if input dataframe does not have Longitude and Latitude Columns
     for name, station in station_dict.items():
-        station['locations'] = [station['Longitude'],station['Latitude']]
+        try:
+            station['locations'] = [station['Longitude'], station['Latitude']]
+        except KeyError:
+            raise KeyError("Input dataframe must contain 'Longitude' and 'Latitude' columns")
     return station_dict
 
 # #input a Folium Map and Stations dictionary containing ISO data. this will draw the ISO lines on the folium map object
@@ -60,6 +63,7 @@ def dictSetup(dataframe):
 #                             ).add_to(maps) # Add apartment locations to map      
 #     print("Done!")
 
+# #input a Folium Map and Stations dictionary containing ISO data. this will draw the ISO lines on the folium map object
 def isoVisualizer(maps,stations, map_icon = "", icon_color= '#cc0000'):
     """ Draws isochrones on folium map
 
