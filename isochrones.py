@@ -34,9 +34,9 @@ def dictSetup(dataframe):
     #TODO: try and catch error if input dataframe does not have Longitude and Latitude Columns
     for name, station in station_dict.items():
         try:
-            station['locations'] = [station['Longitude'], station['Latitude']]
+            station['locations'] = [station['longitude'], station['latitude']]
         except KeyError:
-            raise KeyError("Input dataframe must contain 'Longitude' and 'Latitude' columns")
+            raise KeyError("Input dataframe must contain 'longitude' and 'latitude' columns")
     return station_dict
 
 # #input a Folium Map and Stations dictionary containing ISO data. this will draw the ISO lines on the folium map object
@@ -91,13 +91,13 @@ def isoVisualizer(maps,stations, map_icon = "", icon_color= '#cc0000'):
                                                     #('#6234eb' if x['properties']['value']==600.0 else '#6234eb')
 
     #necessary to create 'locations' column to know specific coordinates for marking
-    stations['locations']  = stations.apply(lambda row: list([row.loc["Longitude"],row.loc["Latitude"]]) , axis = 1)
+    stations['locations']  = stations.apply(lambda row: list([row.loc["longitude"],row.loc["latitude"]]) , axis = 1)
     
     for index, row in stations.iterrows():
         folium.features.GeoJson(row['iso'],style_function = style_function).add_to(maps) # Add GeoJson to map
         if map_icon!="":
-            if row['Colour Hex Code']!='':
-                station_color = row['Colour Hex Code']
+            if row['colour_hex_code']!='':
+                station_color = row['colour_hex_code']
             else:
                 station_color =icon_color
             folium.map.Marker(list(reversed(row['locations'])), # reverse coords due to weird folium lat/lon syntax
@@ -106,7 +106,7 @@ def isoVisualizer(maps,stations, map_icon = "", icon_color= '#cc0000'):
                                             icon=map_icon,
                                             prefix='fa',
                                                 ),
-                            popup=row['Name'],
+                            popup=row['name'],
                             ).add_to(maps) # Add apartment locations to map      
     print("Done!")
 
@@ -127,16 +127,21 @@ def isoVisualizer(maps,stations, map_icon = "", icon_color= '#cc0000'):
 def isoGeoJsonRetriever(parameters,stations,client):
 
     #ORS isochrones API takes input list of coordinates in field called location. This line creates that column
-    stations['locations']  = stations.apply(lambda row: list([row.loc["Longitude"],row.loc["Latitude"]]) , axis = 1)
+    stations['locations']  = stations.apply(lambda row: list([row.loc["longitude"],row.loc["latitude"]]) , axis = 1)
     iso_list = []
 
     for index, row in stations.iterrows():
-        print("Retrieving Isochrone of {} station".format(stations.loc[index,'Name']))
+        print("Retrieving Isochrone of {} station".format(stations.loc[index,'name']))
         parameters['locations'] = [row.loc['locations']]
-        temp_iso = client.isochrones(**parameters)
-        temp_iso = json.dumps(temp_iso)
-        iso_list.append(temp_iso)
-        print("Success")
+    
+        try:
+            temp_iso = client.isochrones(**parameters)
+            temp_iso = json.dumps(temp_iso)
+            iso_list.append(temp_iso)
+            print("Success")
+        except Exception as e:
+            print(f"Failed to retrieve isochrone for station {stations.loc[index,'name']}: {e}")
+            iso_list.append(None)  # or some other default value
     
     stations['iso'] = iso_list
 
@@ -171,13 +176,13 @@ def toMapORS(data,line,params_iso,client):
     # Set up folium map
     if not line in data.values:
         print('{} is not in data frame'.format(line))
-        temp = data['Route Name'].unique()
+        temp = data['route_name'].unique()
         print('Choose from the following: ')
         print(temp)
         return
     if line != None:
-        data = data[data['Route Name']==line]
-    starting_location = (data['Latitude'].iloc[0],data['Longitude'].iloc[0])
+        data = data[data['route_name']==line]
+    starting_location = (data['latitude'].iloc[0],data['longitude'].iloc[0])
     mapped = folium.Map(tiles='OpenStreetMap', location=starting_location, zoom_start=11)
 
     isoGeoJsonRetriever(params_iso,data,client)
@@ -203,7 +208,7 @@ def toMapORS(data,line,params_iso,client):
 #method that uses input dataframe with iso. Returns Map of isochrones.
 def isoMapper(data,icon = 'train'):
     ## Set up folium map
-    starting_location = (data['Latitude'].iloc[0],data['Longitude'].iloc[0])
+    starting_location = (data['latitude'].iloc[0],data['longitude'].iloc[0])
     mapped = folium.Map(tiles='OpenStreetMap', location=starting_location, zoom_start=13)
 
     ##Add legend to Map
