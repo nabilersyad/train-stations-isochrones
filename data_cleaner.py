@@ -8,7 +8,7 @@ data_folder = 'resources/data'
 file_kl = 'klang_valley_stations_isochrones.csv'
 file_sg = 'mrtsg_isochrones.csv'
 file_mtl = 'montreal_metro_isochrones.csv'
-#file_kuching = 'uching_provisional_stations_isochrones.csv'
+#file_kuching = 'kuching_provisional_stations_isochrones.csv'
 
 #we don't actually need every column for the overall dataframe. so we will select a few relevant columns
 iso_col = [
